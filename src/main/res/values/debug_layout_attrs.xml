@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DebugLayout">
+        <attr name="title" format="string" />
+        <attr name="titleFontSize" format="dimension" />
+        <attr name="bonePluginAPIDemo" format="string" />
+        <attr name="bonePluginUIDemo" format="string" />
+    </declare-styleable>
+</resources>

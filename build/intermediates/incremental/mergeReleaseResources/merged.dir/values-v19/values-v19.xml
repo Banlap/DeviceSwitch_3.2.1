@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ali_sdk_openaccount_status_bar_height">25dp</dimen>
+    <dimen name="ali_sdk_openaccount_swipe_delete_button_width">80dp</dimen>
+    <dimen name="ali_sdk_openaccount_title_bar_height">44dp</dimen>
+    <style name="AliUserMaterialAppThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/ali_user_color_primary</item>
+        <item name="colorAccent">@color/ali_user_color_accent</item>
+        <item name="android:textColorPrimary">@color/ali_user_edit_text_textcolor</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@drawable/ali_user_bg_windows_screen</item>
+        <item name="colorPrimaryDark">@color/ali_user_color_primary_dark</item>
+        <item name="android:textColorHint">@color/ali_sdk_openaccount_bg_stroke</item>
+    </style>
+    <style name="OpenAccountDefault" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ali_user_color_primary</item>
+        <item name="colorAccent">@color/ali_user_color_accent</item>
+        <item name="android:textColorPrimary">@color/ali_user_edit_text_textcolor</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@drawable/ali_user_bg_windows_screen</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="android:textColorHint">@color/ali_sdk_openaccount_bg_stroke</item>
+        <item name="ali_sdk_openaccount_attrs_title_bar_bg">@android:color/white</item>
+        <item name="ali_sdk_openaccount_attrs_title_bar_text_color">@color/ali_sdk_openaccount_black</item>
+        <item name="ali_sdk_openaccount_attrs_title_bar_back_text_color">@color/ali_sdk_openaccount_black</item>
+        <item name="ali_sdk_openaccount_attrs_title_bar_visibility">visible</item>
+        <!--<item name="ali_sdk_openaccount_attrs_main_bg">#eeeeee</item>-->
+        <item name="ali_sdk_openaccount_attrs_next_step_bg">
+            @drawable/ali_sdk_openaccount_bg_corners_button
+        </item>
+        <item name="ali_sdk_openaccount_attrs_input_box_clear_btn_color">#cccccc</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

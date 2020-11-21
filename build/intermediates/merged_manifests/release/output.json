@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":251,"versionName":"3.1.4","enabled":true,"outputFile":"DeviceSwitch_release_3.1.4.apk","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"com.example.dome","split":"","minSdkVersion":"19"}}]

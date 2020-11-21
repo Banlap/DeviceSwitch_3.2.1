@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F6F6F6"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/about_topbar_view"
+        layout="@layout/topbar_layout_view" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10sp"
+                android:padding="10sp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:background="#fff"
+                android:textSize="17sp"
+                android:lineSpacingExtra="15sp"
+                android:text="浙江邦奇电气有限公司是一家集设计、研发、生产、销售和服务于一体的智能化控制产品公司。专业从事智能消防应急及疏散指示系统、智能照明控制系统、智能充电桩、智能家居的研发、生产、销售和服务。\n公司以人为本、勇于创新，坚持服务和质量至上的理念，在战略层面建设和发展科技创新团队，尊重、爱惜人才，视人才为公司最宝贵的资产，将团队的成长和企业的发展紧密联系在一起。公司已拥有一批学识渊博、经验丰富、业绩优良的人才，并组建成优秀的管理团队、技术团队、销售团队、和服务团队，其中高级工程师、工程技术人员、管理人员占公司总数的50%以上，公司具有雄厚的技术力量。公司的立身发展之本是质量，并秉承求真务实、精益求精、不断进取和不断创新的“以顾客满意为核心、一切服务于客户”的理念，将其渗透到产品研发、制造的每个环节中，建立完善的质量管理体系和售后服务体系。\n公司始终坚持生产好产品、销售好产品、做好服务。\n公司追求科技发展，不断为用户提供满意的高科技产品。公司推行“高服务、高质量、高科技”的产品区域销售保护政策。公司引进国内外先进技术、并根据自身特点不断优化产品结构，以先进的检测设备、精湛的生产工艺、严格的管理手段进一步保障产品的质量。公司凭借在微电子领域的专业水平和成熟的技术，在低压智能电器产品领域中迅速崛起。公司目前自主研发的智能照明、智能消防、智能家居、酒店客控等智能控制系统在全国范围内得到了广泛的应用。"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_about_content">
+            </TextView>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

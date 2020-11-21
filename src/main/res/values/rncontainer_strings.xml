@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rncontainer_switch_env">环境切换</string>
+    <string name="rncontainer_env_test">开发环境</string>
+    <string name="rncontainer_env_release">生产环境</string>
+
+    <string name="rncontainer_debug_ip_title">请输入本机IP地址/端口号</string>
+    <string name="rncontainer_debug_ip_ok">确定</string>
+    <string name="rncontainer_debug_ip_cancel">取消</string>
+    <string name="rncontainer_illeagel_ip_address">无效的IP地址</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--长链接调试页面-ChannelActivity color start-->
+    <color name="channeldebug_pri_color">#00C1DE</color>
+    <color name="channeldebug_topbar_lefttextcolor">#47C1DF </color>
+    <color name="channeldebug_pri_dark_color">#18B4CD</color>
+    <color name="channeldebug_pri_unenable_color">#CCCCCC</color>
+    <color name="channeldebug_pri_unenable_bgcolor">#88FFFFFF</color>
+    <color name="channeldebug_bgcolor">#F0EFF1</color>
+    <color name="channeldebug_textcolor_normal">#333333</color>
+    <color name="channeldebug_color_connect">#33B14B</color>
+    <color name="channeldebug_textcolor_graytitle">#9B9B9B</color>
+    <color name="channeldebug_textcolor_hint">#999999</color>
+    <!--长链接调试页面-ChannelActivity color end-->
+
+</resources>

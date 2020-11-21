@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context="com.aliyun.iot.ilop.demo.page.device.adddevice.AddDeviceActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/color_white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="添加设备"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/ilop_main_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="15dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/blue_back_bg"
+            android:text=" 返回"
+            android:textColor="#108EE9"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_deviceadd_ble"
+            android:layout_width="wrap_content"
+            android:text="蓝牙添加"
+            android:textColor="#108EE9"
+            android:layout_gravity="center_vertical|right"
+            android:background="@null"
+            android:layout_marginRight="15dp"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="#C6C8C9" />
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_device"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="44dp" />
+
+
+</RelativeLayout>

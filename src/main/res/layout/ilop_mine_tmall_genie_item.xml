@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mine_color_FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mine_tm_head_item_controlled_device_tv"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@color/ali_sdk_openaccount_bg_list"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:text="@string/appExtension_device_add_no"
+            android:textColor="#FF999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/mine_tm_head_item_no_device_tv"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:text="No devices currently"
+            android:textColor="#FF999999"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <LinearLayout
+            android:id="@+id/mine_tm_head_item_device_ll"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/mine_tp_device_item_iv"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/mine_item_zw"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/mine_tp_device_item_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:textColor="#FF333333"
+                android:textSize="16sp"
+                tools:text="sadhsajdasjds" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/mine_tp_device_item_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:background="#F5F5F5" />
+</RelativeLayout>

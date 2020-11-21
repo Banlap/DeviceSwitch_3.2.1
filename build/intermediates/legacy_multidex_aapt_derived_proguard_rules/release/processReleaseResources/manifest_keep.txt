@@ -1,0 +1,4 @@
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:75
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:75
+-keep class com.aliyun.iot.ilop.demo.DemoApplication { <init>(); }

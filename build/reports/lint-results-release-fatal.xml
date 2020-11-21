@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.5.1">
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/wifi_image` is not a sibling in the same `RelativeLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="                    android:layout_toRightOf=&quot;@+id/wifi_image&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_trouble_details.xml"
+            line="269"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/password` is not a sibling in the same `RelativeLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="        android:layout_below=&quot;@+id/password&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\dailo_util_layout.xml"
+            line="23"
+            column="9"/>
+    </issue>
+
+</issues>

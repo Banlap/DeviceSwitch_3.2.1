@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical">
+
+    <com.aliyun.iot.ilop.demo.view.SimpleToolBar
+        android:id="@+id/equipment_setting_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.aliyun.iot.ilop.demo.view.EQSettingItemView
+        android:id="@+id/equipment_setting_changeName"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/unbind_eq_ll"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/color_white"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="解绑设备"
+            android:textColor="#FFFF3838"
+            android:textSize="14dp" />
+    </LinearLayout>
+</LinearLayout>

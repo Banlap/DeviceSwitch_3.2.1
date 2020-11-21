@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aliyun.iot.ilop.demo.kaiguan.activity.TroubleDetailsActivity">
+    <include android:id="@+id/head_layout" android:layout_width="match_parent" android:layout_height="50dp" layout="@layout/head_layout"/>
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/slide_shou_rlayout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wifi_image"
+                    android:textSize="@dimen/text_size_16"
+                    android:text="设备名字"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/array_icon"
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/tx_bk_color"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="飞利浦前顶灯"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/head_image"
+                android:background="@color/item_divider_color_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <RelativeLayout
+
+                android:gravity="center_vertical"
+                android:layout_below="@+id/slide_shou_rlayout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wifi_image"
+                    android:textSize="@dimen/text_size_16"
+                    android:text="设备编号"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/tx_bk_color"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="SDH282883"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/slide_shou_rlayout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wifi_image"
+                    android:textSize="@dimen/text_size_16"
+                    android:text="网络连接方式"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/array_icon"
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/tx_bk_color"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="WI—FI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/head_image"
+                android:background="@color/item_divider_color_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <RelativeLayout
+
+                android:gravity="center_vertical"
+                android:layout_below="@+id/slide_shou_rlayout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wifi_image"
+                    android:textSize="@dimen/text_size_16"
+                    android:text="WIFI名字"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/array_icon"
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/tx_bk_color"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="HELLO_tot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/head_image"
+                android:background="@color/item_divider_color_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_below="@+id/slide_shou_rlayout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wifi_image"
+                    android:textSize="@dimen/text_size_16"
+                    android:text="WIFI密码"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/array_icon"
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/tx_bk_color"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="*******"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/slide_shou_rlayout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wifi_image"
+                    android:textSize="@dimen/text_size_16"
+                    android:text="定时时间"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/array_icon"
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/tx_bk_color"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="查看更多"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/head_image"
+                android:background="@color/item_divider_color_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <RelativeLayout
+
+                android:gravity="center_vertical"
+                android:layout_below="@+id/slide_shou_rlayout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wifi_image"
+                    android:textSize="@dimen/text_size_16"
+                    android:text="一键开关"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/array_icon"
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/tx_bk_color"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="开启"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/slide_shou_rlayout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wifi_image"
+                    android:textSize="@dimen/text_size_16"
+                    android:text="故障原因"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/tx_bk_color"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="WIFI连接失败"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/head_image"
+                android:background="@color/item_divider_color_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_below="@+id/slide_shou_rlayout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wifi_image"
+                    android:textSize="@dimen/text_size_16"
+                    android:text="故障报警时间"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/array_icon"
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/tx_bk_color"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="2020-12-12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/add_facility_text"
+                android:textSize="@dimen/text_size_14"
+                android:background="@drawable/selector_btn_wsit"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="删除设备"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

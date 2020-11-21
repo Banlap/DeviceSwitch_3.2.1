@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\workstation\\androidStudioWorkStation\\project-sources\\project-sources\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-km-rKH\\values-km-rKH.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\zhoub\\.gradle\\caches\\transforms-2\\files-2.1\\d7162aacaca1d26af73eced2e9fbf413\\jetified-scanplus-1.1.1.301\\res\\values-km-rKH\\values-km-rKH.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,107,172,227,295,360",
+                        "endColumns": "51,64,54,67,64,47",
+                        "endOffsets": "102,167,222,290,355,403"
+                    }
+                }
+            ]
+        }
+    ]
+}

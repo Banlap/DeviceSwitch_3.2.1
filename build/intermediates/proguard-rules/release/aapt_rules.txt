@@ -1,0 +1,612 @@
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:75
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:541
+-keep class com.alibaba.sdk.android.openaccount.ui.TokenWebViewActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:537
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.AccountDeviceActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:465
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.ChangeMobileActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:491
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.EmailRegisterActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:495
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.EmailResetPasswordActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:499
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.EmailResetPwdFillPwdActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:469
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.LoginActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:519
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.LoginDoubleCheckWebActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:523
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.LoginIVWebActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:473
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.LoginWithSmsCodeActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:533
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.MobileCountrySelectorActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:461
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.NoPasswordLoginActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:487
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.OneStepRegisterActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:530
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.QrLoginActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:527
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.QrLoginConfirmActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:483
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.RegisterActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:507
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.RegisterFillPasswordActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:515
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.ResetOATaoPasswordActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:511
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.ResetPasswordActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:503
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.ResetPasswordFillPasswordActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:477
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.SpecialLoginActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:480
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.face.H5WindVaneContainer { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:812
+-keep class com.alibaba.sdk.android.push.AgooFirebaseInstanceIDService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:819
+-keep class com.alibaba.sdk.android.push.AgooFirebaseMessagingService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:766
+-keep class com.alibaba.sdk.android.push.AliyunPushIntentService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:953
+-keep class com.alibaba.sdk.android.push.MeizuPushReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:860
+-keep class com.alibaba.sdk.android.push.MiPushBroadcastReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:691
+-keep class com.alibaba.sdk.android.push.MsgService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:803
+-keep class com.alibaba.sdk.android.push.SystemEventReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:702
+-keep class com.alibaba.sdk.android.push.channel.CheckService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:798
+-keep class com.alibaba.sdk.android.push.channel.KeepChannelService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:786
+-keep class com.alibaba.sdk.android.push.channel.TaobaoRecvService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:923
+-keep class com.alibaba.sdk.android.push.huawei.HuaweiPushReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:973
+-keep class com.alibaba.sdk.android.push.impl.PushMessageReceiverImpl { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:562
+-keep class com.aliyun.alink.page.rn.RNActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:146
+-keep class com.aliyun.iot.aep.oa.page.OAMobileCountrySelectorActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:545
+-keep class com.aliyun.iot.aep.sdk.log.ui.ALogActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:546
+-keep class com.aliyun.iot.aep.sdk.log.ui.ALogWebActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:547
+-keep class com.aliyun.iot.aep.sdk.log.ui.ReportBugSuccessfulActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:451
+-keep class com.aliyun.iot.aep.sdk.page.CountryListActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:456
+-keep class com.aliyun.iot.aep.sdk.page.OAMobileCountrySelectorActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:361
+-keep class com.aliyun.iot.aep.sdk.receiver.PushReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:589
+-keep class com.aliyun.iot.breeze.PlaceHolderActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:569
+-keep class com.aliyun.iot.debugcanary.LeakService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:75
+-keep class com.aliyun.iot.ilop.demo.DemoApplication { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:98
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.AboutActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:91
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.AddFacilityActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:92
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.AddSceneActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:97
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.DataGliActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:87
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.FacilityDetailsActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:94
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.NiChengActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:84
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.PersonageActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:88
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.SceneDetailsActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:85
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.SceneListActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:93
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.StingActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:90
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.TimingDetailsActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:89
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.TimingListActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:86
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.TroubleDetailsActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:96
+-keep class com.aliyun.iot.ilop.demo.kaiguan.activity.WiFiActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:95
+-keep class com.aliyun.iot.ilop.demo.kaiguan.utils.PermissionsActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:219
+-keep class com.aliyun.iot.ilop.demo.page.about.AboutActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:235
+-keep class com.aliyun.iot.ilop.demo.page.about.CopyrightActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:240
+-keep class com.aliyun.iot.ilop.demo.page.account.AccountActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:297
+-keep class com.aliyun.iot.ilop.demo.page.alog.ALogActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:257
+-keep class com.aliyun.iot.ilop.demo.page.apiclient.APIClientDemoActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:275
+-keep class com.aliyun.iot.ilop.demo.page.apiclient.APIClientDemoResultActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:281
+-keep class com.aliyun.iot.ilop.demo.page.channel.ChannelActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:126
+-keep class com.aliyun.iot.ilop.demo.page.debug.EnvironmentActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:168
+-keep class com.aliyun.iot.ilop.demo.page.device.adddevice.AddDeviceActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:184
+-keep class com.aliyun.iot.ilop.demo.page.device.adddevice.BluetoothAddActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:201
+-keep class com.aliyun.iot.ilop.demo.page.device.bind.BindAndUseActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:326
+-keep class com.aliyun.iot.ilop.demo.page.ilopmain.ChangeEqNameActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:323
+-keep class com.aliyun.iot.ilop.demo.page.ilopmain.EquipmentSettingActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:320
+-keep class com.aliyun.iot.ilop.demo.page.ilopmain.LampsActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:151
+-keep class com.aliyun.iot.ilop.demo.page.ilopmain.MainActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:108
+-keep class com.aliyun.iot.ilop.demo.page.language.LanguageSettingActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:316
+-keep class com.aliyun.iot.ilop.demo.page.login3rd.OALoginActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:117
+-keep class com.aliyun.iot.ilop.demo.page.main.StartActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:345
+-keep class com.aliyun.iot.ilop.demo.page.ota.activity.OTAActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:329
+-keep class com.aliyun.iot.ilop.demo.page.ota.activity.OTAListActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:104
+-keep class com.aliyun.iot.ilop.demo.page.share.ShareActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:407
+-keep class com.aliyun.iot.ilop.page.mine.tripartite_platform.activity.H5Activity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:422
+-keep class com.aliyun.iot.ilop.page.mine.tripartite_platform.activity.TmallGenieActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:392
+-keep class com.aliyun.iot.ilop.page.mine.tripartite_platform.activity.TripartitePlatformListActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:585
+-keep class com.aliyun.iot.ilop.page.scan.ScanActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:130
+-keep class com.aliyun.iot.ilop.startpage.list.main.countryselect.CountryListActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:380
+-keep class com.facebook.CustomTabActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:548
+-keep class com.facebook.CustomTabMainActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:375
+-keep class com.facebook.FacebookActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:558
+-keep class com.facebook.internal.FacebookInitProvider { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:567
+-keep class com.facebook.react.devsupport.DevSettingsActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:580
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:571
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:657
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:667
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:681
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:662
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:677
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:614
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:625
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:643
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:607
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:651
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:946
+-keep class com.heytap.mcssdk.AppPushService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:939
+-keep class com.heytap.mcssdk.PushService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:993
+-keep class com.huawei.agconnect.core.ServiceDiscovery { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:988
+-keep class com.huawei.agconnect.core.provider.AGConnectInitializeProvider { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:874
+-keep class com.huawei.android.hms.agent.common.HMSAgentActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:885
+-keep class com.huawei.hms.activity.BridgeActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:101
+-keep class com.huawei.hms.hmsscankit.ScanKitActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:1001
+-keep class com.huawei.hms.mlsdk.common.Provider.MLInitializerProvider { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:936
+-keep class com.huawei.updatesdk.service.deamon.download.DownloadService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:896
+-keep class com.huawei.updatesdk.service.otaupdate.AppUpdateActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:905
+-keep class com.huawei.updatesdk.support.pm.PackageInstallerActivity { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:709
+-keep class com.taobao.accs.ChannelService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:717
+-keep class com.taobao.accs.ChannelService$KernelService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:730
+-keep class com.taobao.accs.EventReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:748
+-keep class com.taobao.accs.ServiceReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:722
+-keep class com.taobao.accs.data.MsgDistributeService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:794
+-keep class com.taobao.accs.internal.AccsJobService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:773
+-keep class com.taobao.agoo.AgooCommondReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:969
+-keep class com.vivo.push.sdk.service.CommandClientService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:840
+-keep class com.xiaomi.mipush.sdk.MessageHandleService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:836
+-keep class com.xiaomi.mipush.sdk.PushMessageHandler { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:830
+-keep class com.xiaomi.push.service.XMJobService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:826
+-keep class com.xiaomi.push.service.XMPushService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:843
+-keep class com.xiaomi.push.service.receivers.NetworkStatusReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:852
+-keep class com.xiaomi.push.service.receivers.PingReceiver { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\build\intermediates\merged_manifests\release\AndroidManifest.xml:759
+-keep class org.android.agoo.accs.AgooService { <init>(); }
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\add_device_activity.xml:54
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\0ef1469310f8a33428956975f9e223fd\jetified-facebook-android-sdk-4.20.0\res\layout\com_facebook_smart_device_dialog_fragment.xml:47
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\0ef1469310f8a33428956975f9e223fd\jetified-facebook-android-sdk-4.20.0\res\layout\com_facebook_device_auth_dialog_fragment.xml:45
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\3853f2f8ca4c38e2c160811e88c6dcad\browser-1.0.0\res\layout\browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\0ef1469310f8a33428956975f9e223fd\jetified-facebook-android-sdk-4.20.0\res\layout\com_facebook_smart_device_dialog_fragment.xml:22
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\0ef1469310f8a33428956975f9e223fd\jetified-facebook-android-sdk-4.20.0\res\layout\com_facebook_device_auth_dialog_fragment.xml:22
+-keep class androidx.cardview.widget.CardView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\5b4bfd735d1d8665667cdac6f95d09e4\jetified-alog-0.0.5.1\res\layout\activity_report_bug_successful.xml:2
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\5b4bfd735d1d8665667cdac6f95d09e4\jetified-alog-0.0.5.1\res\layout\activity_alog_web.xml:2
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\5b4bfd735d1d8665667cdac6f95d09e4\jetified-alog-0.0.5.1\res\layout\activity_alog.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\deviceadd_support_device_title.xml:2
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\deviceadd_no_support_device.xml:2
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\deviceadd_local_scan_title.xml:2
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\deviceadd_local_device_title.xml:2
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\2be836102edf6082e712ab0aef88b0aa\material-1.0.0\res\layout\design_bottom_sheet_dialog.xml:26
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_activity_parent_material.xml:2
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\612d03095c4f5b18097efad035e4b327\appcompat-1.0.0\res\layout\abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\myfragment_tab_layout.xml:2
+-keep class androidx.fragment.app.FragmentTabHost { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\6b0673eb0a933028322eb174de016a6b\jetified-uicomponent-0.1.0\res\layout\link_toast.xml:11
+-keep class androidx.legacy.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\6b0673eb0a933028322eb174de016a6b\jetified-uicomponent-0.1.0\res\layout\recyclerview.xml:2
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_ota_list_activity.xml:24
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_mine_tmall_genie_activity.xml:13
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\fragment_trouble.xml:14
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\fragment_home.xml:41
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\fragment_facility.xml:14
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\fragment_authcode_list_dialog.xml:2
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_timing_list.xml:45
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_scene_list.xml:16
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_scene_details.xml:142
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_language_setting.xml:16
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_add_scene.xml:92
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_add_facility.xml:16
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_ota_list_activity.xml:13
+-keep class androidx.swiperefreshlayout.widget.SwipeRefreshLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\6b0673eb0a933028322eb174de016a6b\jetified-uicomponent-0.1.0\res\layout\link_tab_page.xml:22
+-keep class androidx.viewpager.widget.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_qr_login.xml:61
+-keep class com.alibaba.sdk.android.openaccount.ui.ui.LoginWebViewWidget { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_change_mobile.xml:56
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.CheckCodeInputBox { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_sms_code_input_box.xml:5
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_reset_oa_tao_password.xml:32
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_password_input_box.xml:5
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_mail_reset_password.xml:30
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_mail_register.xml:30
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_input_box_with_history.xml:5
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_checkcode_input_box.xml:5
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.InputBoxWithClear { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ali_sdk_openaccount_login2.xml:36
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_login.xml:23
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.InputBoxWithHistory { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_reset_password.xml:31
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_register_one_step.xml:31
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_register.xml:30
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_no_password_login.xml:31
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_login_with_sms_code_password.xml:31
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_change_mobile.xml:29
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.MobileInputBoxWithClear { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_reset_password_fill_password.xml:43
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_reset_password.xml:52
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_reset_oa_tao_password.xml:42
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_register_one_step.xml:62
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_register_fill_password.xml:43
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_register.xml:51
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_no_password_login.xml:52
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_mail_reset_password.xml:60
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_mail_register.xml:70
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_login_with_sms_code_password.xml:52
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ali_sdk_openaccount_login2.xml:70
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_login.xml:58
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_change_mobile.xml:65
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.NextStepButton { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_web_view_activity.xml:8
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_toolbar.xml:14
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.OaToolbar { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_login.xml:100
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.OauthWidget { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_reset_password_fill_password.xml:24
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_register_one_step.xml:42
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_register_fill_password.xml:24
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_mail_register.xml:50
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ali_sdk_openaccount_login2.xml:58
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_login.xml:45
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.PasswordInputBox { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_device_item.xml:6
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.ScrollLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_mobile_country_selector.xml:50
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.SiderBar { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_reset_password.xml:41
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_register_one_step.xml:52
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_register.xml:41
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_no_password_login.xml:42
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_mail_reset_password.xml:41
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_mail_register.xml:40
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_login_with_sms_code_password.xml:41
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_change_mobile.xml:40
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.SmsCodeInputBox { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_device_manager.xml:32
+-keep class com.alibaba.sdk.android.openaccount.ui.widget.SwipeListView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_login_web_view_widget.xml:4
+-keep class com.alibaba.sdk.android.openaccount.webview.TaeWebView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\4c91e6752de2357341718a572e1c8026\jetified-rn-0.3.4\res\layout\page_rn_activity.xml:13
+-keep class com.aliyun.alink.alirn.RNContainer { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\29706de6a1a55a5e7aa3691ff0d7d0fc\jetified-rn-external-0.59.8.20200216\res\layout\item_react_wheelview.xml:23
+-keep class com.aliyun.alink.auikit.wheelview.lib.WheelView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\4c91e6752de2357341718a572e1c8026\jetified-rn-0.3.4\res\layout\page_rn_dialog_loading.xml:8
+-keep class com.aliyun.alink.page.rn.preload.BGAProgressBar { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\4c91e6752de2357341718a572e1c8026\jetified-rn-0.3.4\res\layout\page_rn_activity.xml:8
+-keep class com.aliyun.alink.page.rn.view.RNLoadingView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\ba7b41991aed68c75ce882aea3f51f48\jetified-sdk-framework-0.1.5\res\layout\sdk_framework_country_list.xml:32
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\ba7b41991aed68c75ce882aea3f51f48\jetified-sdk-framework-0.1.5\res\layout\sdk_framework_ali_sdk_openaccount_mobile_country_selector2.xml:29
+-keep class com.aliyun.iot.aep.sdk.page.CountrySiderBar { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\ba7b41991aed68c75ce882aea3f51f48\jetified-sdk-framework-0.1.5\res\layout\sdk_framework_header_view_location_fail.xml:30
+-keep class com.aliyun.iot.aep.sdk.page.LineTextView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\ba7b41991aed68c75ce882aea3f51f48\jetified-sdk-framework-0.1.5\res\layout\sdk_framework_country_list.xml:12
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\ba7b41991aed68c75ce882aea3f51f48\jetified-sdk-framework-0.1.5\res\layout\sdk_framework_ali_sdk_openaccount_mobile_country_selector2.xml:10
+-keep class com.aliyun.iot.aep.sdk.page.OATitleBar { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\country_list.xml:32
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ali_sdk_openaccount_mobile_country_selector2.xml:29
+-keep class com.aliyun.iot.aep.widget.OASiderBar { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\channel_activity.xml:160
+-keep class com.aliyun.iot.ilop.demo.page.channel.switchbutton.SwitchButton { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_main.xml:9
+-keep class com.aliyun.iot.ilop.demo.page.ilopmain.MyFragmentTabLayout { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_ota_activity.xml:71
+-keep class com.aliyun.iot.ilop.demo.page.ota.view.MineOTAButton { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_ota_list_activity.xml:8
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_ota_activity.xml:8
+-keep class com.aliyun.iot.ilop.demo.page.ota.view.SimpleTopbar { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\account_activity.xml:11
+-keep class com.aliyun.iot.ilop.demo.view.ALoadView2 { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\lamps_switch_view.xml:16
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\lamps_activity.xml:101
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\item_palettes_dialog.xml:9
+-keep class com.aliyun.iot.ilop.demo.view.CircleView { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\debug_fragment_layout.xml:9
+-keep class com.aliyun.iot.ilop.demo.view.DebugLayout { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\equipment_setting_activity.xml:13
+-keep class com.aliyun.iot.ilop.demo.view.EQSettingItemView { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\lamps_activity.xml:9
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\equipment_setting_activity.xml:8
+-keep class com.aliyun.iot.ilop.demo.view.SimpleToolBar { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_mine_tmall_genie_foot_item.xml:46
+-keep class com.aliyun.iot.ilop.page.mine.view.InstructionView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\884471747bab6573d5d6b5b9b059125e\scan-0.0.1\res\layout\scan_activity.xml:6
+-keep class com.aliyun.iot.ilop.page.scan.ScanFragment { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\header_view_location_fail.xml:30
+-keep class com.aliyun.iot.ilop.startpage.list.main.view.LineTextView { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\country_list.xml:12
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ali_sdk_openaccount_mobile_country_selector2.xml:10
+-keep class com.aliyun.iot.ilop.startpage.list.main.view.OATitleBar { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\ba7b41991aed68c75ce882aea3f51f48\jetified-sdk-framework-0.1.5\res\layout\sdk_framework_ali_sdk_openaccount_title_layout_2.xml:43
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_mine_tripartite_platfrom_list_activity.xml:9
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_mine_tmall_genie_activity.xml:8
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ilop_mine_h5_activity.xml:7
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\ali_sdk_openaccount_title_layout_2.xml:43
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_share.xml:9
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_language_setting.xml:10
+-keep class com.aliyun.iot.link.ui.component.nav.UINavigationBar { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\index_item_layout.xml:47
+-keep class com.google.android.flexbox.FlexboxLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\9c02e5c9a2ad643d0fe3e83efb450981\jetified-openaccount-ui-default-3.6.4\res\layout\ali_sdk_openaccount_toolbar.xml:3
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_share.xml:54
+-keep class com.google.android.material.floatingactionbutton.FloatingActionButton { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\2be836102edf6082e712ab0aef88b0aa\material-1.0.0\res\layout\design_bottom_navigation_item.xml:27
+-keep class com.google.android.material.internal.BaselineLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\2be836102edf6082e712ab0aef88b0aa\material-1.0.0\res\layout\design_text_input_password_icon.xml:18
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\2be836102edf6082e712ab0aef88b0aa\material-1.0.0\res\layout\design_navigation_item.xml:17
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\2be836102edf6082e712ab0aef88b0aa\material-1.0.0\res\layout\design_navigation_menu.xml:17
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\2be836102edf6082e712ab0aef88b0aa\material-1.0.0\res\layout\mtrl_layout_snackbar.xml:18
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\2be836102edf6082e712ab0aef88b0aa\material-1.0.0\res\layout\design_layout_snackbar.xml:18
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\2be836102edf6082e712ab0aef88b0aa\material-1.0.0\res\layout\mtrl_layout_snackbar_include.xml:18
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\2be836102edf6082e712ab0aef88b0aa\material-1.0.0\res\layout\design_layout_snackbar_include.xml:18
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\6b0673eb0a933028322eb174de016a6b\jetified-uicomponent-0.1.0\res\layout\link_tab_page.xml:8
+-keep class com.google.android.material.tabs.TabLayout { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_share.xml:28
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_share.xml:17
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(...); }
+
+# Referenced at C:\Users\zhoub\.gradle\caches\transforms-2\files-2.1\d7162aacaca1d26af73eced2e9fbf413\jetified-scanplus-1.1.1.301\res\layout\scankit_zxl_capture.xml:25
+-keep class com.huawei.hms.scankit.ViewfinderView { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\fragment_trouble.xml:9
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\fragment_home.xml:36
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\fragment_facility.xml:9
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_timing_list.xml:41
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_scene_list.xml:11
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_add_facility.xml:11
+-keep class com.scwang.smartrefresh.layout.SmartRefreshLayout { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\fragment_main.xml:37
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_scene_details.xml:55
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\activity_add_scene.xml:36
+-keep class de.hdodenhof.circleimageview.CircleImageView { <init>(...); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\api_client_demo_result_activity.xml:27
+-keepclassmembers class * { *** copy(android.view.View); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\api_client_demo_activity.xml:232
+-keepclassmembers class * { *** switchEn(android.view.View); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\api_client_demo_activity.xml:155
+-keepclassmembers class * { *** switchHttp(android.view.View); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\api_client_demo_activity.xml:145
+-keepclassmembers class * { *** switchHttps(android.view.View); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\api_client_demo_activity.xml:222
+-keepclassmembers class * { *** switchZh(android.view.View); }
+
+# Referenced at D:\workstation\androidStudioWorkStation\project-sources\project-sources\src\main\res\layout\api_client_demo_activity.xml:258
+-keepclassmembers class * { *** testAPI(android.view.View); }
+

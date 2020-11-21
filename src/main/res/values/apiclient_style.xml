@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="APIClientSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#1FC1DD</item>
+        <item name="colorSwitchThumbNormal">@android:color/white</item>
+        <item name="android:colorForeground">#CCCCCC</item>
+    </style>
+</resources>

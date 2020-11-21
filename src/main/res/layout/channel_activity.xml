@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/topbar_layout_view"/>
+    <!--<RelativeLayout android:id="@+id/channeldebug_topbar_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/color_white"
+                    android:paddingLeft="11.5dp"
+                    android:paddingRight="16dp">
+        <LinearLayout android:id="@+id/channel_topbar_back_lineralayout"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_arrow"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/channel_title"
+            android:textColor="@color/channeldebug_textcolor_normal"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/channel_writedefaultdata_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/channel_topbar_righttv_text"
+            android:textColor="@color/channeldebug_topbar_lefttextcolor"
+            android:textSize="14dp"/>
+
+    </RelativeLayout>-->
+    <LinearLayout
+        android:id="@+id/channel_connect_status_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/channeldebug_pri_unenable_color" android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+        <ImageView
+            android:id="@+id/channel_connect_status_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="4dp"
+            android:src="@mipmap/channel_statues_unconnect"/>
+        <TextView
+            android:id="@+id/channel_connect_status_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未连接"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/channel_scroolview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/channeldebug_bgcolor">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!--输入发布的Topic模块 start-->
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="50dp"
+                          android:background="@android:color/white"
+                          android:gravity="center_vertical"
+                          android:orientation="horizontal"
+                          android:paddingRight="10dp">
+                <EditText
+                    android:id="@+id/channel_publish_topic_et"
+                    style="@style/ChannelDebug_EditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:hint="@string/channel_hint_please_input_thetopic"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <ImageView
+                    android:id="@+id/channel_publish_topic_et_delete"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/channel_delete_btn"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+            <!--输入发布的Topic模块 end-->
+
+            <!--start 输入发布的Topic参数模块 start-->
+            <TextView style="@style/ChannelDebug_SubTitle"
+                      android:layout_width="match_parent"
+                      android:layout_height="32dp"
+                      android:text="@string/channel_please_inputparams"
+                      android:textColor="@color/channeldebug_textcolor_graytitle"
+                      android:textSize="12dp"/>
+            <EditText
+                android:id="@+id/channel_publish_msg_et"
+                style="@style/ChannelDebug_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:hint="请输入json格式数据"
+                android:scrollbars="vertical"/>
+            <!--end 输入发布的Topic参数模块 end-->
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:paddingBottom="20dp"
+                          android:paddingLeft="10dp"
+                          android:paddingRight="10dp"
+                          android:paddingTop="20dp">
+                <TextView
+                    android:id="@+id/channel_publish_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/channeldebug_fill_selector_btnbg"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/channel_publish"
+                    android:textColor="@android:color/white"
+                    android:textSize="17dp"/>
+            </LinearLayout>
+            <!--end 发布模块布局 end-->
+
+            <!--start 订阅模块布局 start-->
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:background="@android:color/white"
+                          android:orientation="vertical">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="50dp"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal"
+                              android:paddingLeft="10dp"
+                              android:paddingRight="10dp">
+                    <TextView android:layout_width="0dp"
+                              android:layout_height="match_parent"
+                              android:layout_weight="1"
+                              android:gravity="center_vertical"
+                              android:text="@string/channle_subscrble_alltopic"
+                              android:textSize="16dp"
+                              android:textStyle="bold"/>
+                    <com.aliyun.iot.ilop.demo.page.channel.switchbutton.SwitchButton
+                        android:id="@+id/channel_subscribe_all_btn"
+                        style="@style/SwitchButtonCommonStyle"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/channeldebug_bgcolor"/>
+            </LinearLayout>
+
+            <!-- start 单独订阅模块 start-->
+            <LinearLayout android:id="@+id/channel_subscribe_singletopic_linearlayout"
+                          android:layout_width="match_parent"
+                          android:layout_height="50dp"
+                          android:background="@android:color/white"
+                          android:gravity="center_vertical"
+                          android:orientation="horizontal"
+                          android:paddingRight="10dp">
+
+                <EditText
+                    android:id="@+id/channel_subscribe_topic_et"
+                    style="@style/ChannelDebug_EditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:hint="请输入需要单独订阅的Topic"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:id="@+id/channel_subscribe_btn"
+                    android:layout_width="56dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/channel_sub_selector_btnbg"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/channel_subscribe_single"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"/>
+            </LinearLayout>
+            <!-- end 单独订阅模块 end-->
+
+            <!--start 绑定账号模块 start-->
+            <LinearLayout android:id="@+id/channel_bind2user_root_linearlayout"
+                          android:layout_width="match_parent"
+                          android:layout_height="50dp"
+                          android:layout_marginTop="20dp"
+                          android:background="@android:color/white"
+                          android:gravity="center_vertical"
+                          android:orientation="horizontal"
+                          android:paddingLeft="10dp"
+                          android:paddingRight="10dp">
+                <TextView android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center_vertical"
+                          android:text="@string/channel_bind_currentuser"
+                          android:textSize="16dp"
+                          android:textStyle="bold"/>
+
+                <com.aliyun.iot.ilop.demo.page.channel.switchbutton.SwitchButton
+                    android:id="@+id/channel_subscrbie_bind2user"
+                    style="@style/SwitchButtonCommonStyle"/>
+            </LinearLayout>
+            <!--end 绑定账号模块 end-->
+
+            <!--start 推送消息显示模块 start-->
+            <TextView style="@style/ChannelDebug_SubTitle"
+                      android:layout_width="match_parent"
+                      android:layout_height="32dp"
+                      android:text="推送结果"
+                      android:textColor="@color/channeldebug_textcolor_graytitle"
+                      android:textSize="12dp"/>
+
+            <EditText
+                android:id="@+id/channel_msg_et"
+                style="@style/ChannelDebug_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:hint=""
+                android:scrollbars="vertical"/>
+            <!--end 推送消息显示模块 end-->
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:paddingBottom="20dp"
+                          android:paddingLeft="10dp"
+                          android:paddingRight="10dp"
+                          android:paddingTop="20dp">
+                <TextView
+                    android:id="@+id/channel_deletepushmsg_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/channeldebug_fill_selector_btnbg"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/channel_clear_pushmsg"
+                    android:textColor="@android:color/white"
+                    android:textSize="17dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

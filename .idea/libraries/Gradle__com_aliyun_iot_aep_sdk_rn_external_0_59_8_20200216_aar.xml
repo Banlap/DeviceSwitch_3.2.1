@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.iot.aep.sdk:rn-external:0.59.8.20200216@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29706de6a1a55a5e7aa3691ff0d7d0fc/jetified-rn-external-0.59.8.20200216/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29706de6a1a55a5e7aa3691ff0d7d0fc/jetified-rn-external-0.59.8.20200216/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29706de6a1a55a5e7aa3691ff0d7d0fc/jetified-rn-external-0.59.8.20200216/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29706de6a1a55a5e7aa3691ff0d7d0fc/jetified-rn-external-0.59.8.20200216/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

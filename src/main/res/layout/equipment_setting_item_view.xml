@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@color/color_white"
+    android:gravity="center_vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="修改备注名"
+        android:textColor="#FF333333"
+        android:textSize="14dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="4dp"
+        android:layout_height="8dp"
+        android:src="@drawable/lamps_next" />
+</LinearLayout>

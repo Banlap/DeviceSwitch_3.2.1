@@ -1,0 +1,208 @@
+apply plugin: 'com.android.application'
+apply plugin: 'project-report'
+
+Properties app_props = new Properties()
+try {
+    app_props.load(rootProject.file('application_info.properties').newDataInputStream())
+} catch (Exception ignored) {
+    throw new GradleException("Missing application_info.properties, check it again.")
+}
+
+def appId = app_props["applicationId"]
+
+def projectName = "DemoApp"
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId appId
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 251
+        versionName "3.1.4"
+        //兼容Gradle3.X
+        ndk {
+//            abiFilters "armeabi"
+//            abiFilters "armeabi-v7a"
+            abiFilters "arm64-v8a", "armeabi-v7a"
+        }
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        debug {
+            v2SigningEnabled false
+            storeFile file("debug.jks")
+            storePassword '123456'
+            keyAlias 'ray_ni'
+            keyPassword '123456'
+        }
+        release {
+            v2SigningEnabled false
+            storeFile file("debug.jks")
+            storePassword '123456'
+            keyAlias 'ray_ni'
+            keyPassword '123456'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            buildConfigField "String", "BUILD_COUNTRY", "\"CHINA\""//国内
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        //debug 默认不开混淆
+        debug {
+            minifyEnabled false
+            buildConfigField "String", "BUILD_COUNTRY", "\"CHINA\""
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            //String fileName = projectName + "_" + buildType.name + "_" + defaultConfig.versionName + ".apk";
+            String fileName = "DeviceSwitch" + "_" + buildType.name + "_" + defaultConfig.versionName + ".apk";
+            println "fileName:" + fileName;
+            outputFileName = fileName;
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude 'META-INF/proguard/androidx-annotations.pro'
+    }
+}
+
+buildscript {
+    repositories {
+        google()
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'http://developer.huawei.com/repo/'}
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.1'
+    }
+}
+allprojects {
+    repositories {
+        google()
+        maven { url "https://jitpack.io" }
+        //maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        jcenter()
+        maven { url 'https://maven.google.com' }
+        flatDir {
+            dirs 'libs'
+        }
+
+        mavenLocal()
+        /*maven {
+            url "http://mvnrepo.alibaba-inc.com/mvn/repository"
+        }*/
+        maven {
+            url "http://maven.aliyun.com/nexus/content/repositories/releases"
+        }
+        maven { url 'http://developer.huawei.com/repo/'}
+    }
+}
+
+configurations.all {
+    resolutionStrategy.cacheDynamicVersionsFor 0, 'seconds'
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    resolutionStrategy.force('com.aliyun.ams:alicloud-android-ut:5.1.0')
+}
+
+configurations {
+    cleanedAnnotations
+    compile.exclude group: 'org.jetbrains', module: 'annotations'
+}
+
+
+dependencies {
+
+    //更新SDK请参考如下文档：https://living.aliyun.com/doc#pre-app.html
+
+    /* ScanActivity in here  */
+    implementation 'com.aliyun.iot.ilop.page:scan:0.0.1'
+    /* 其他.begin */
+    implementation 'com.google.android:flexbox:0.3.1'
+    api("com.android.support:design:28.0.0") {
+        force = true
+    }
+
+    implementation 'com.android.support:multidex:1.0.3'
+    /* 其他.end */
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    api 'com.android.support.constraint:constraint-layout:1.1.2'
+
+    api 'com.android.support:appcompat-v7:28.0.0'
+
+    // glide
+    api 'com.github.bumptech.glide:glide:4.3.1'
+
+    api 'com.aliyun.iot.aep.sdk:debugcanary:0.0.1@aar'
+
+    //FIXME 如果需要使用并查看LinkVisual摄像头面板则添加ipcview的引用，如果不需要那么可以把ipcview以及linkvisualapi从工程中删除。
+    // 注意DemoApplication有LinkVisual摄像头面板初始化，HomeTabFragment有在设备列表中跳转LinkVisual摄像头面板的代码
+    // implementation project(':ipcview')
+    //recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    //smartrefresh
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.2'
+    implementation 'com.canyinghao:canadapter:1.1.5'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.yqritc:recyclerview-flexibledivider:1.4.0'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.aliyun.iot.ilop.page:scan:0.0.1'
+
+    implementation 'com.huawei.hms:scanplus:1.1.1.301'
+
+    implementation group: 'net.sourceforge.jexcelapi', name: 'jxl', version: '2.6.12'
+}
+
+/* all sdk in here */
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+
+    // Dependency for Google Sign-In
+    api 'com.google.android.gms:play-services-auth:15.0.1'
+//    //facebook
+    api('com.facebook.android:facebook-android-sdk:4.20.0')
+
+
+}
+
+apply from: "sdk_dependencies.gradle"
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:28.+'
+    implementation 'com.android.support:design:28.+'
+    implementation 'com.android.support:recyclerview-v7:28.+'
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}

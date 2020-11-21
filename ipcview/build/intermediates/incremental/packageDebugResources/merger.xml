@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res"/><source path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\build\generated\res\rs\debug"/><source path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res"><file name="alpha_loop" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\anim\alpha_loop.xml" qualifiers="" type="anim"/><file name="btn_bg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\btn_bg.xml" qualifiers="" type="drawable"/><file name="camera_capture" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\camera_capture.png" qualifiers="" type="drawable"/><file name="camera_card_video" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\camera_card_video.png" qualifiers="" type="drawable"/><file name="camera_close" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\camera_close.png" qualifiers="" type="drawable"/><file name="camera_file" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\camera_file.png" qualifiers="" type="drawable"/><file name="camera_mic_nor" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\camera_mic_nor.png" qualifiers="" type="drawable"/><file name="camera_mic_push" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\camera_mic_push.png" qualifiers="" type="drawable"/><file name="camera_pictures" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\camera_pictures.png" qualifiers="" type="drawable"/><file name="camera_record" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\camera_record.png" qualifiers="" type="drawable"/><file name="camera_settings" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\camera_settings.png" qualifiers="" type="drawable"/><file name="close_icon_white" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\close_icon_white.png" qualifiers="" type="drawable"/><file name="errors_no_pic" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\errors_no_pic.png" qualifiers="" type="drawable"/><file name="full_screen_button" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\full_screen_button.xml" qualifiers="" type="drawable"/><file name="hollow_pressed_btnbg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\hollow_pressed_btnbg.xml" qualifiers="" type="drawable"/><file name="hollow_selector_btnbg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\hollow_selector_btnbg.xml" qualifiers="" type="drawable"/><file name="hollow_unenable_btnbg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\hollow_unenable_btnbg.xml" qualifiers="" type="drawable"/><file name="hollow_unpressed_btnbg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\hollow_unpressed_btnbg.xml" qualifiers="" type="drawable"/><file name="ipc_hint_replay_bg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_hint_replay_bg.xml" qualifiers="" type="drawable"/><file name="ipc_history_listview_selector_bg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_history_listview_selector_bg.xml" qualifiers="" type="drawable"/><file name="ipc_red_dot" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_red_dot.xml" qualifiers="" type="drawable"/><file name="ipc_replay" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_replay.png" qualifiers="" type="drawable"/><file name="ipc_seekbar_line" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_seekbar_line.xml" qualifiers="" type="drawable"/><file name="ipc_seekbar_thumb" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_seekbar_thumb.xml" qualifiers="" type="drawable"/><file name="ipc_shape_timer" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_shape_timer.xml" qualifiers="" type="drawable"/><file name="ipc_video_bg_calendar" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_video_bg_calendar.xml" qualifiers="" type="drawable"/><file name="ipc_video_bg_calendar_selected" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_video_bg_calendar_selected.xml" qualifiers="" type="drawable"/><file name="ipc_video_btn_pause_resume" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_video_btn_pause_resume.xml" qualifiers="" type="drawable"/><file name="ipc_video_txt_calendar_day_color" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ipc_video_txt_calendar_day_color.xml" qualifiers="" type="drawable"/><file name="ptz_btn_bg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\ptz_btn_bg.png" qualifiers="" type="drawable"/><file name="selector_pause_resume" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\selector_pause_resume.xml" qualifiers="" type="drawable"/><file name="settings_arrows" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\settings_arrows.png" qualifiers="" type="drawable"/><file name="settings_arrow_push" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\settings_arrow_push.png" qualifiers="" type="drawable"/><file name="settings_arrow_select" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\settings_arrow_select.xml" qualifiers="" type="drawable"/><file name="shape_btn_bg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\shape_btn_bg.xml" qualifiers="" type="drawable"/><file name="shape_btn_nor_bg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\shape_btn_nor_bg.xml" qualifiers="" type="drawable"/><file name="shape_btn_push_bg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\shape_btn_push_bg.xml" qualifiers="" type="drawable"/><file name="speaker_btn_bg" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable\speaker_btn_bg.xml" qualifiers="" type="drawable"/><file name="ilop_ota_device_icon_default" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\drawable-xxhdpi\ilop_ota_device_icon_default.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_card_video" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\activity_card_video.xml" qualifiers="" type="layout"/><file name="activity_easy_plan_settings" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\activity_easy_plan_settings.xml" qualifiers="" type="layout"/><file name="activity_event_video" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\activity_event_video.xml" qualifiers="" type="layout"/><file name="activity_ipcamera" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\activity_ipcamera.xml" qualifiers="" type="layout"/><file name="activity_multi_player" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\activity_multi_player.xml" qualifiers="" type="layout"/><file name="activity_new_card_video" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\activity_new_card_video.xml" qualifiers="" type="layout"/><file name="activity_new_event_video" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\activity_new_event_video.xml" qualifiers="" type="layout"/><file name="activity_picture_test" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\activity_picture_test.xml" qualifiers="" type="layout"/><file name="camera_layout_video_repaly" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\camera_layout_video_repaly.xml" qualifiers="" type="layout"/><file name="camera_layout_video_small_seek" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\camera_layout_video_small_seek.xml" qualifiers="" type="layout"/><file name="ipc_history_video_footer" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\ipc_history_video_footer.xml" qualifiers="" type="layout"/><file name="ipc_history_video_item" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\ipc_history_video_item.xml" qualifiers="" type="layout"/><file name="ipc_include_video_exoplayer_empty" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\ipc_include_video_exoplayer_empty.xml" qualifiers="" type="layout"/><file name="picture_dialog_layout" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\picture_dialog_layout.xml" qualifiers="" type="layout"/><file name="pic_picture_item" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\pic_picture_item.xml" qualifiers="" type="layout"/><file name="ptz_layout" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\ptz_layout.xml" qualifiers="" type="layout"/><file name="setting_pref_widget_more" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\setting_pref_widget_more.xml" qualifiers="" type="layout"/><file name="snapshot_preview_dialog" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\snapshot_preview_dialog.xml" qualifiers="" type="layout"/><file name="time_item_layout" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\time_item_layout.xml" qualifiers="" type="layout"/><file name="time_picker_layout" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\layout\time_picker_layout.xml" qualifiers="" type="layout"/><file path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\values\app_styles.xml" qualifiers=""><style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+
+    </style><style name="window_background" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style><style name="SettingsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+    </style><style name="myTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+    </style></file><file path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\values\color.xml" qualifiers=""><color name="color_4D4D4D">#4D4D4D</color><color name="color_C64D4D4D">#C64D4D4D</color><color name="color_8F8E94">#8F8E94</color><color name="color_ED001D">#ED001D</color><color name="color_1F6BC4">#1F6BC4</color><color name="color_EFEEF1">#EFEEF1</color><color name="color_333333">#333333</color><color name="color_555555">#555555</color><color name="color_EFEFEF">#EFEFEF</color><color name="color_47C1DF">#47C1DF</color><color name="color_9B9B9B">#9B9B9B</color><color name="color_F7F7F7">#F7F7F7</color><color name="color_F6F6F6">#F7F7F7</color><color name="color_CCCCCC">#CCCCCC</color><color name="color_EDEDED">#EDEDED</color><color name="color_999999">#999999</color><color name="color_1FC88B">#1FC88B</color><color name="color_white">#EEEEEE</color><color name="color_00C1DE">#00C1DE</color><color name="color_88FFFFFF">#88FFFFFF</color></file><file path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\values\ipc_attrs_timeruleview.xml" qualifiers=""><declare-styleable name="TimeRulerView">
+        
+        <attr format="reference|color" name="ipc_gradationColor"/>
+        
+        <attr format="dimension|reference" name="ipc_gradationWidth"/>
+        
+        <attr format="color|reference" name="ipc_gradationTextColor"/>
+        
+        <attr format="dimension|reference" name="ipc_gradationTextSize"/>
+        
+        <attr format="dimension|reference" name="ipc_secondLen"/>
+        
+        <attr format="dimension|reference" name="ipc_minuteLen"/>
+        
+        <attr format="dimension|reference" name="ipc_hourLen"/>
+        
+        <attr format="integer|reference" name="ipc_currentTime"/>
+        
+        <attr format="reference|color" name="ipc_indicatorLineColor"/>
+        
+        <attr format="reference|dimension" name="ipc_indicatorLineWidth"/>
+        
+        <attr format="color|reference" name="ipc_partColor"/>
+    </declare-styleable></file><file path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\values\ipc_strings.xml" qualifiers=""><string name="btn_footer_more">点击获取更多</string><string name="btn_footer_loading">加载中</string></file><file path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\values\ipc_style.xml" qualifiers=""><style name="video_repaly">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/ipc_hint_replay_bg</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style><style name="custom_seekbar">
+        <item name="android:maxHeight">2dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/ipc_seekbar_line</item>
+        <item name="android:minHeight">1dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:thumb">@drawable/ipc_seekbar_thumb</item>
+    </style></file><file path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\values\preference_key.xml" qualifiers=""><string name="mic_switch_key">mic_switch</string><string name="speaker_switch_key">speaker_switch</string><string name="status_light_switch_key">status_light_switch</string><string name="day_night_mode_key">day_night_mode</string><string name="stream_video_quality_key">stream_video_quality</string><string name="subStream_video_quality_key">subStream_video_quality</string><string name="image_flip_status_key">image_flip_status</string><string name="encrypt_switch_key">encrypt_switch</string><string name="force_iframe_key">force_iframe</string><string name="alarm_switch_key">alarm_switch</string><string name="motion_detect_sensitivity_key">motion_detect_sensitivity</string><string name="voice_detect_sensitivity_key">voice_detect_sensitivity</string><string name="alarm_frequency_level_key">alarm_frequency_level</string><string name="alarm_notify_settings_key">alarm_notify_settings</string><string name="event_record_time_settings_key">event_record_time_settings</string><string name="storage_status_key">storage_status</string><string name="storage_total_capacity_key">storage_total_capacity</string><string name="storage_remain_capacity_key">storage_remain_capacity</string><string name="storage_record_mode_key">storage_record_mode</string><string name="storage_format_key">storage_format</string><string name="unbind_key">unbind</string><string name="reboot_key">reboot</string></file><file path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\values\settings_arrays.xml" qualifiers=""><string-array name="MotionDetectSensitivity">
+        <item>关闭</item>
+        <item>最低灵敏度</item>
+        <item>低灵敏度</item>
+        <item>中灵敏度</item>
+        <item>高灵敏度</item>
+        <item>最高灵敏度</item>
+    </string-array><string-array name="MotionDetectSensitivityValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array><string-array name="VoiceDetectionSensitivity">
+        <item>关闭</item>
+        <item>最低灵敏度</item>
+        <item>低灵敏度</item>
+        <item>中灵敏度</item>
+        <item>高灵敏度</item>
+        <item>最高灵敏度</item>
+    </string-array><string-array name="VoiceDetectionSensitivityValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array><string-array name="StreamVideoQuality">
+        <item>流畅</item>
+        <item>标清</item>
+        <item>高清</item>
+    </string-array><string-array name="StreamVideoQualityValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array><string-array name="SubStreamVideoQuality">
+        <item>流畅</item>
+        <item>标清</item>
+        <item>高清</item>
+    </string-array><string-array name="SubStreamVideoQualityValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array><string-array name="AlarmFrequencyLevel">
+        <item>低频</item>
+        <item>中频</item>
+        <item>高频</item>
+    </string-array><string-array name="AlarmFrequencyLevelValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array><string-array name="StorageRecordMode">
+        <item>不录像</item>
+        <item>事件录像</item>
+        <item>全天录像</item>
+    </string-array><string-array name="StorageRecordModeValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array><string-array name="StorageStatus">
+        <item>未插卡</item>
+        <item>状态正常</item>
+        <item>未格式化</item>
+        <item>正在格式化</item>
+    </string-array><string-array name="StorageStatusValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array><string-array name="DayNightMode">
+        <item>日间模式</item>
+        <item>夜间模式</item>
+        <item>自动</item>
+    </string-array><string-array name="DayNightModeValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array><string-array name="ImageFlipState">
+        <item>正常</item>
+        <item>翻转</item>
+    </string-array><string-array name="ImageFlipStateValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array></file><file path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\values\settings_strings.xml" qualifiers=""><string name="camera_switch_title">摄像机开关</string><string name="privacy_switch_title">隐私遮蔽开关</string><string name="video_voice_title">图像和声音</string><string name="mic_switch_title">麦克风开关</string><string name="speaker_switch_title">扬声器开关</string><string name="status_light_switch_title">状态灯开关</string><string name="day_night_mode_title">日夜模式</string><string name="day_night_mode_sum">切换摄像机的白天黑夜模式</string><string name="stream_video_quality_title">主码流视频质量</string><string name="stream_video_quality_sum">切换主码流视频质量</string><string name="subStream_video_quality_title">辅码流视频质量</string><string name="subStream_video_quality_sum">切换辅码流视频质量</string><string name="image_flip_status_title">图像翻转</string><string name="encrypt_switch_title">视频加密开关</string><string name="force_iframe_title">强制I帧开关</string><string name="alarm_title">报警设置</string><string name="alarm_switch_title">报警开关</string><string name="auto_tracking_switch_title">自动跟踪开关</string><string name="motion_detect_sensitivity_title">移动侦测灵敏度</string><string name="motion_detect_sensitivity_sum">切换移动侦测灵敏度</string><string name="voice_detect_sensitivity_title">声音侦测灵敏度</string><string name="voice_detect_sensitivity_sum">切换声音侦测灵敏度</string><string name="alarm_frequency_level_title">报警频率</string><string name="alarm_frequency_level_sum">切换报警频率</string><string name="alarm_notify_setting_title">报警提醒时段</string><string name="alarm_notify_setting_sum">设置报警提醒时段</string><string name="event_record_time_setting_title">报警录像时段</string><string name="event_record_time_setting_sum">设置报警录像时段</string><string name="card_title">存储卡</string><string name="storage_status_title">存储卡状态</string><string name="storage_total_capacity_title">存储卡总存储容量</string><string name="storage_remaining_capacity_title">存储卡剩余存储容量</string><string name="storage_record_mode_title">存储卡录制模式</string><string name="storage_record_mode_sum">切换存储卡录制模式</string><string name="storage_format_title">格式化存储卡</string><string name="storage_format_sum">将存储卡进行初始化</string><string name="unbind_title">解绑设备</string><string name="reboot_title">重启设备</string></file><file path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">IPCView</string><string name="ipc_confirm">确定</string><string name="ipc_cancle">取消</string><string name="ipc_delete">删除</string><string name="ipc_close">关闭</string><string name="ipc_reg_plan_unbind_fail">删除事件录像计划与设备关系失败，  code: %1$d      data:%2$s</string><string name="ipc_plan_all_day">全天</string><string name="ipc_plan_unbind">解除计划</string><string name="ipc_plan_update">更新计划</string><string name="ipc_plan_query_list_err_info">获取事件录像计划失败    e:</string><string name="ipc_plan_query_list_success">获取事件录像计划成功</string><string name="ipc_plan_match_fail">没有对应的事件录像计划   code:</string><string name="ipc_plan_query_list_err_code">获取事件录像计划失败    code:</string><string name="ipc_plan_none">设备无事件录像计划</string><string name="ipc_plan_set_err_info">设置失败，e:</string><string name="ipc_plan_set_success">设置成功</string><string name="ipc_plan_set_fail_data_null">设置失败,数据为空</string><string name="ipc_plan_set_fail_code">设置失败,code:</string><string name="ipc_plan_unbind_err_info">删除事件录像计划与设备关系失败，e:</string><string name="ipc_plan_unbind_success">删除事件录像计划与设备关系成功，data:</string><string name="ipc_plan_start_time">开始时间</string><string name="ipc_plan_end_time">结束时间</string><string name="ipc_plan_sunday">周天</string><string name="ipc_plan_monday">周一</string><string name="ipc_plan_tuesday">周二</string><string name="ipc_plan_wednesday">周三</string><string name="ipc_plan_thursday">周四</string><string name="ipc_plan_friday">周五</string><string name="ipc_plan_saturday">周六</string><string name="ipc_plan_unknow">未知</string><string name="ipc_plan_invalid_time">时间非法</string><string name="ipc_reg_main_first_frame_time">首帧耗时: %1$d ms</string><string name="ipc_main_warm_use_phone_traffic">正在使用手机流量，可能会产生费用</string><string name="ipc_main_definition_high">高清</string><string name="ipc_main_definition_normal">标清</string><string name="ipc_main_definition_low">流畅</string><string name="ipc_main_ptz_zoom_big">放大</string><string name="ipc_main_ptz_zoom_small">缩小</string><string name="ipc_main_function_four_screen">四分屏</string><string name="ipc_main_ptz_stop">停止</string><string name="ipc_main_ptz_right">→</string><string name="ipc_main_ptz_left_down">↙</string><string name="ipc_main_ptz_left">←</string><string name="ipc_main_ptz_down">↓</string><string name="ipc_main_ptz_left_up">↖</string><string name="ipc_main_ptz_right_up">↗</string><string name="ipc_main_ptz_right_down">↘</string><string name="ipc_main_ptz_up">↑</string><string name="ipc_main_ptz_success">转动成功</string><string name="ipc_main_ptz_fail">转动失败    o:</string><string name="ipc_main_can_intercom">可以开始说话了</string><string name="ipc_main_intercom_redio_err">录音机错误:</string><string name="ipc_main_intercom_close">语音对讲关闭</string><string name="ipc_main_record_fail">录制视频失败, 请确保已有内容播放</string><string name="ipc_main_record_err_io">无法写入</string><string name="ipc_main_record_success">视频录制成功</string><string name="ipc_main_record_save_path">存储在:</string><string name="ipc_main_record_play">播放录像</string><string name="ipc_main_record_save_fail">保存mp4文件失败</string><string name="ipc_main_snapshot_fail">无法截图，当前无画面</string><string name="ipc_video_title_card">设备端卡录像</string><string name="ipc_video_title_cloud">云端事件录像</string><string name="ipc_video_no_video">暂无视频</string><string name="ipc_video_choose_date">选择日期</string><string name="ipc_video_replay">重播</string><string name="ipc_video_record_fail">无法录像，当前无画面</string><string name="ipc_video_snapshot_fail">无法截图，当前无画面</string><string name="ipc_video_swip_to_section">请划动到标志时间段内播放</string><string name="ipc_video_not_connect">无法连接</string><string name="ipc_video_data_err">数据异常</string><string name="ipc_video_device_offline">设备离线</string><string name="ipc_video_permission_set">去设置</string><string name="ipc_video_permission_info_about_write_sd">您已禁用 \"读写手机存储\" 权限， 将影响拍照和录像功能,请在设置中授权！</string><string name="ipc_video_no_more">没有更多录像了</string><string name="ipc_video_play_not_encrypt">播放未加密录像</string><string name="ipc_video_play_encrypt">播放加密录像</string><string name="ipc_reg_album_select_count">已选择%d项</string><string name="ipc_reg_album_query_list_fail">获取照片列表失败，e:%1$s</string><string name="ipc_reg_album_delete_err_info">批量删除照片失败，e:%1$s</string><string name="ipc_album_reg_query_list_err_info">获取照片列表失败，code:%1$d   data:%2$s</string><string name="ipc_album_reg_delete_fail_code">批量删除照片失败，code:%1$d   msg:%2$s  %3$s</string><string name="ipc_album_title">查看图片</string><string name="ipc_album_choose_all">全选</string><string name="ipc_album_clear">清除</string><string name="ipc_album_refresh">更新</string><string name="ipc_album_no_more">已经没有更多数据了！</string><string name="ipc_album_swip_load_next">已经拖动至底部，再次拖动即可翻页</string><string name="ipc_album_del_dialog_title">提示</string><string name="ipc_album_del_dialog_msg_no_select">当前未选中项目</string><string name="ipc_album_del_dialog_msg_reconfirm">确认删除所选项目？</string><string name="ipc_album_query_list_null">获取照片列表成功：data为null</string><string name="ipc_album_delete_success">批量删除照片成功</string><string name="ipc_album_delete_part_success">批量删除部分照片成功</string><string name="ipc_album_delete_fail">批量删除照片失败</string><string name="ipc_album_delete_fail_null">批量删除照片失败：data为null</string><string name="ipc_album_select_one">已选择1项</string><string name="ipc_setting_reboot_success">重启指令发送成功</string><string name="ipc_setting_sd_normal">正常</string><string name="ipc_setting_sd_no">未插卡</string><string name="ipc_setting_sd_not_format">未格式化</string><string name="ipc_setting_sd_formatting">正在格式化</string><string name="ipc_setting_unbind_dialog_title">是否解绑设备？</string><string name="ipc_setting_unbind">解绑</string><string name="ipc_setting_unbind_err">解绑失败</string><string name="ipc_setting_unbind_success">解绑成功</string><string name="ipc_setting_function_developing">暂未开放此功能</string><string name="ipc_dialog_snapshot_save">保存到相册</string><string name="ipc_dialog_url_request_err">请求失败</string><string name="ipc_dialog_title_pic">照片</string><string name="ipc_dialog_saved">已保存</string><string name="ipc_dialog_select_time">选择时间</string></file><file name="provider_paths" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\xml\provider_paths.xml" qualifiers="" type="xml"/><file name="settings_preferences" path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\res\xml\settings_preferences.xml" qualifiers="" type="xml"/></source><source path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\build\generated\res\rs\debug"/><source path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="TimeRulerView">
+        
+        <attr format="reference|color" name="ipc_gradationColor"/>
+        
+        <attr format="dimension|reference" name="ipc_gradationWidth"/>
+        
+        <attr format="color|reference" name="ipc_gradationTextColor"/>
+        
+        <attr format="dimension|reference" name="ipc_gradationTextSize"/>
+        
+        <attr format="dimension|reference" name="ipc_secondLen"/>
+        
+        <attr format="dimension|reference" name="ipc_minuteLen"/>
+        
+        <attr format="dimension|reference" name="ipc_hourLen"/>
+        
+        <attr format="integer|reference" name="ipc_currentTime"/>
+        
+        <attr format="reference|color" name="ipc_indicatorLineColor"/>
+        
+        <attr format="reference|dimension" name="ipc_indicatorLineWidth"/>
+        
+        <attr format="color|reference" name="ipc_partColor"/>
+    </declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_confirm">OK</string>
+    <string name="action_switch_env">Context switch</string>
+    <string name="locating">Locating…</string>
+    <string name="component_cancel">Cancel</string>
+    <string name="component_unopened_location_service">Location services disabled</string>
+    <string name="component_unopened_location_service_des">To quickly locate, allow application to use the location services.</string>
+    <string name="component_set_up">Go to Settings</string>
+    <string name="location_failed">Failed to locate.</string>
+    <string name="location_failed_again">Click to retry.</string>
+    <string name="activity_title_choose_country">Select Country/Region</string>
+    <string name="login_location_fail">Failed to locate. Click to retry</string>
+    <string name="login_no_select_country_title">No country/area code is selected</string>
+    <string name="login_no_select_country_text">Select a country/area code before login or sign-up.</string>
+    <string name="region_restart_confirm">The app is restarting after switching.</string>
+    <string name="mine_language">Languages</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_switch_language">Switch the language to "%s"?</string>
+    <string name="action_log_in_again">log in again as the user prior to starting the application to make the change take effect</string>
+
+    <string name="mine_language_english">English</string>
+    <string name="mine_language_simplified_chinese">简体中文</string>
+    <string name="setting_follow_system_langure">Use System Language</string>
+    <string name="mine_language_simplified_french">Français</string>
+    <string name="mine_language_simplified_German">Deutsch</string>
+    <string name="mine_language_japanese">日本語</string>
+    <string name="mine_language_korean">한국어</string>
+    <string name="mine_language_spain">Español</string>
+    <string name="mine_language_russian">Русский</string>
+    <string name="action_authcode_login">Authcode login</string>
+</resources>

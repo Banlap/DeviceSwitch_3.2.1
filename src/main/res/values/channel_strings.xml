@@ -1,0 +1,39 @@
+<resources>
+    <string name="channel_unlogin_msg">你还未登录！请先登录再绑定账号</string>
+    <string name="channel_unsubscribe_alltopic_fail_msg">取消订阅全部Topic失败</string>
+    <string name="channel_unsubscribe_alltopic_sucess_msg">取消订阅全部Topic成功</string>
+
+    <string name="channel_subscribe_alltopic_fail_msg">订阅全部Topic失败</string>
+    <string name="channel_subscribe_alltopic_sucess_msg">订阅全部Topic成功</string>
+
+    <string name="channel_unsubscribe_singletopic_fail_msg">取消订阅单个Topic失败</string>
+    <string name="channel_unsubscribe_singletopic_sucess_msg">取消订阅单个Topic成功</string>
+
+    <string name="channel_subscribe_singletopic_fail_msg">订阅单个Topic失败</string>
+    <string name="channel_subscribe_singletopic_sucess_msg">订阅单个Topic成功</string>
+    <string name="channel_bindaccount_suc_msg">绑定账号成功</string>
+    <string name="channel_bindaccount_fail_msg">绑定账号失败</string>
+
+    <string name="channel_please_input_correct_topic">请输入正确的topic！</string>
+    <string name="channel_please_input_correct_topic_params">请输入正确的参数！</string>
+
+    <string name="channel_publish_sucess">发布成功！</string>
+    <string name="channel_publish_fail">发布失败！</string>
+
+    <string name="channel_subscribe_single">单独订阅</string>
+    <string name="channel_unsubscribe_single">取消订阅</string>
+
+    <string name="channel_title">长链接通道调试</string>
+    <string name="channel_topbar_righttv_text">填充测试数据</string>
+    <string name="channel_publish">发布</string>
+    <string name="channel_clear_pushmsg">清空推送结果</string>
+    <string name="channel_bind_currentuser">绑定到当前账号</string>
+    <string name="channle_subscrble_alltopic">订阅全部Topic</string>
+
+    <string name="channle_connectstatus_con">已连接</string>
+    <string name="channle_connectstatus_uncon">未连接</string>
+    <string name="channle_connectstatus_con_ing">连接中...</string>
+
+    <string name="channel_hint_please_input_thetopic">请输入Topic</string>
+    <string name="channel_please_inputparams">输入参数</string>
+</resources>

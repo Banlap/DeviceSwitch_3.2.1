@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.alink.linksdk:public-tmp-ext-boneplugin:1.4.5.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2c2b1fd2a942a4c65b13e0eec6188128/public-tmp-ext-boneplugin-1.4.5.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2c2b1fd2a942a4c65b13e0eec6188128/public-tmp-ext-boneplugin-1.4.5.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2c2b1fd2a942a4c65b13e0eec6188128/public-tmp-ext-boneplugin-1.4.5.5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

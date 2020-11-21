@@ -1,0 +1,136 @@
+/**
+ * 该脚本是为了同时打出国内版和海外版，使用 ./gradlew build 命令可以打出四个apk  release debug releaseOversea debugOversea
+ *
+ *
+ */
+
+buildscript {
+    repositories {
+        mavenLocal()
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+    }
+}
+
+android{
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+            storePassword '123456'
+            keyAlias 'ray_ni'
+            keyPassword '123456'
+        }
+        release {
+            storeFile file("debug.keystore")
+            storePassword '123456'
+            keyAlias 'ray_ni'
+            keyPassword '123456'
+        }
+    }
+
+
+    buildTypes {
+
+        releaseOversea {
+            minifyEnabled true
+            buildConfigField "String", "BUILD_COUNTRY","\"OVERSEA\"" //海外
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }//debug 默认不开混淆
+        debugOversea {
+            minifyEnabled false
+            buildConfigField "String", "BUILD_COUNTRY","\"OVERSEA\""
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    sourceSets {
+        //国内环境采用默认的安全图片
+        release {
+            resources.srcDirs = ['src/main/res']
+            res.srcDirs = ['src/main/res']
+        }
+        debug {
+            resources.srcDirs = ['src/main/res']
+            res.srcDirs = ['src/main/res']
+        }
+        //海外版采用 src/oversea/res 路径下的安全图片
+        releaseOversea {
+            resources.srcDirs = ['src/oversea/res']
+            res.srcDirs = ['src/oversea/res']
+        }
+        debugOversea {
+            resources.srcDirs = ['src/oversea/res']
+            res.srcDirs = ['src/oversea/res']
+        }
+
+    }
+}
+tasks.whenTaskAdded { task ->
+    if (task.name.startsWith('merge') && task.name.endsWith("Resources") && !task.name.contains("Patch")&&!task.name.contains("AndroidTest")) {
+        println(" ******************* task:" + task.name);
+        task.doFirst {
+            //复制oversea 安全图片
+            File overseaSourceDir = new File(project.getProjectDir().getAbsolutePath() + "/src/oversea/res/drawable/");
+            if (overseaSourceDir != null) {
+                println("delete cache file " + overseaSourceDir.name)
+            }
+            if (overseaSourceDir.isDirectory()) {
+                List<File> resFileList = overseaSourceDir.listFiles();
+                if (!resFileList.isEmpty()) {
+                    for (File f : resFileList) {
+                        if ("yw_1222_114d.jpg".equalsIgnoreCase(f.getName())) {
+                            println("================== start to delete :" + f.getAbsolutePath());
+                            f.delete();
+                        }
+                    }
+                }
+            }
+
+            File overseaDesDir = new File(project.getProjectDir().getAbsolutePath() + "/configure/oversea/yw_1222_114d.jpg");
+            if (overseaDesDir.exists()) {
+                println(overseaDesDir.getAbsoluteFile());
+                org.apache.commons.io.FileUtils.copyFile(task.project.file(overseaDesDir),
+                        task.project.file(overseaSourceDir.getAbsolutePath() +"/yw_1222_114d.jpg"), true);
+            } else {
+                throw new IllegalArgumentException("未找到海外环境的安全图片，请重新检查configure/oversea/目录下,是否存在名称为yw_1222_114d.jpg")
+            }
+
+            //复制china 安全图片
+            File chinaSourceDir = new File(project.getProjectDir().getAbsolutePath() + "/src/main/res/drawable/");
+            if (chinaSourceDir != null) {
+                println("delete cache file " + chinaSourceDir.name)
+            }
+            if (chinaSourceDir.isDirectory()) {
+                List<File> resFileList = chinaSourceDir.listFiles();
+                if (!resFileList.isEmpty()) {
+                    for (File f : resFileList) {
+                        if ("yw_1222_114d.jpg".equalsIgnoreCase(f.getName())) {
+                            println("================== start to delete :" + f.getAbsolutePath());
+                            f.delete();
+                        }
+                    }
+                }
+            }
+
+            File chinaDesDir = new File(project.getProjectDir().getAbsolutePath() + "/configure/china/yw_1222_114d.jpg");
+            if (chinaDesDir.exists()) {
+                println(chinaDesDir.getAbsoluteFile());
+                org.apache.commons.io.FileUtils.copyFile(task.project.file(chinaDesDir),
+                        task.project.file(chinaSourceDir.getAbsolutePath() +"/yw_1222_114d.jpg"), true);
+            } else {
+                throw new IllegalArgumentException("未找到国内环境的安全图片，请重新检查configure/china/目录下,是否存在名称为yw_1222_114d.jpg")
+            }
+
+        }
+    }
+}
+
+
+

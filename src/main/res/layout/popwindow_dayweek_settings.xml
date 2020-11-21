@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="12dp"
+                android:layout_weight="1"
+                android:text="重复"
+                android:textColor="#000000"
+                android:textSize="19dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_week_mon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#F1F1F1">
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="星期一"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/tv_week_mon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@mipmap/icon_fuxuankuang2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_week_tue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#F1F1F1">
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="星期二"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/tv_week_tue"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@mipmap/icon_fuxuankuang2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_week_wed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#F1F1F1">
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="星期三"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/tv_week_wed"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@mipmap/icon_fuxuankuang2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_week_thu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#F1F1F1">
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="星期四"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/tv_week_thu"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@mipmap/icon_fuxuankuang2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_week_fri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#F1F1F1">
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="星期五"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/tv_week_fri"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@mipmap/icon_fuxuankuang2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_week_sat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#F1F1F1">
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="星期六"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/tv_week_sat"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@mipmap/icon_fuxuankuang2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_week_sun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#F1F1F1">
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="星期日"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/tv_week_sun"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@mipmap/icon_fuxuankuang2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#EFEFEF"
+            android:layout_above="@+id/ll_btn"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="#8E8E8E">
+
+                <TextView
+                    android:id="@+id/popw_tv_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="10dp"
+                    android:text="取消"
+                    android:textSize="15dp"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#EFEFEF"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="#339138">
+                <TextView
+                    android:id="@+id/popw_tv_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="完成"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

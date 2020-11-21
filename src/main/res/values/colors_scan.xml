@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 扫描页面-ScanActivity color start-->
+    <color name="scan_popbgcolor_tranblack">#55000000</color>
+    <color name="scan_text_white">#EEEEEE</color>
+    <!-- 扫描页面-ScanActivity color end-->
+</resources>

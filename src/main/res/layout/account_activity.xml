@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/about_topbar_view"
+        layout="@layout/topbar_layout_view" />
+
+    <com.aliyun.iot.ilop.demo.view.ALoadView2
+        android:id="@+id/account_loading_loadview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar_scene_create"
+        android:background="@android:color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/account_login_textview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/corners_bg_blue"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@color/color_47C1DF"
+        android:textSize="17dp" />
+
+
+    <TextView
+        android:id="@+id/account_logout_textview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corners_bg_red"
+        android:gravity="center"
+        android:text="退出"
+        android:textColor="@color/color_ED001D"
+        android:textSize="17dp" />
+
+
+</LinearLayout>

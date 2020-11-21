@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.chrisbanes:PhotoView:2.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/488faf2c6c29678ea44e74165bd27aa6/jetified-PhotoView-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/488faf2c6c29678ea44e74165bd27aa6/jetified-PhotoView-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/488faf2c6c29678ea44e74165bd27aa6/jetified-PhotoView-2.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chrisbanes/PhotoView/2.1.0/f0a7fb1c7d644b4861e6cde152b6ae4c83cfba86/PhotoView-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

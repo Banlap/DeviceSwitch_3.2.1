@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\workstation\\androidStudioWorkStation\\project-sources\\project-sources\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\zhoub\\.gradle\\caches\\transforms-2\\files-2.1\\9c02e5c9a2ad643d0fe3e83efb450981\\jetified-openaccount-ui-default-3.6.4\\res\\values-v19\\values-v19.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,124,201,269,916",
+                        "endLines": "2,3,4,14,33",
+                        "endColumns": "68,76,67,12,12",
+                        "endOffsets": "119,196,264,911,2293"
+                    }
+                }
+            ]
+        }
+    ]
+}

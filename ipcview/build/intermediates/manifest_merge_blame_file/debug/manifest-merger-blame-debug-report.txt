@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.aliyun.iot.demo.ipcview"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:43:5-80
+12-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:43:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:44:5-81
+13-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:44:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:45:5-79
+14-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:45:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:46:5-76
+15-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:46:22-73
+16    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+16-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:47:5-86
+16-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:47:22-83
+17    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+17-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:49:5-78
+17-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:49:22-75
+18
+19    <application
+19-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:6:5-42:19
+20        android:allowBackup="false"
+20-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:7:9-36
+21        tools:replace="android:allowBackup" >
+21-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:6:18-53
+22        <provider
+22-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:9:9-17:20
+23            android:name="androidx.core.content.FileProvider"
+23-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:10:13-62
+24            android:authorities="dollar_openBracket_applicationId_closeBracket.provider"
+24-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:11:13-60
+25            android:exported="false"
+25-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:12:13-37
+26            android:grantUriPermissions="true" >
+26-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:13:13-47
+27            <meta-data
+27-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:14:13-16:58
+28                android:name="android.support.FILE_PROVIDER_PATHS"
+28-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:15:17-67
+29                android:resource="@xml/provider_paths" />
+29-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:16:17-55
+30        </provider>
+31
+32        <activity
+32-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:18:9-19:77
+33            android:name="com.aliyun.iot.demo.ipcview.activity.NewCardVideoActivity"
+33-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:18:19-64
+34            android:configChanges="keyboardHidden|orientation|screenSize" />
+34-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:19:13-74
+35        <activity
+35-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:20:9-21:77
+36            android:name="com.aliyun.iot.demo.ipcview.activity.NewEventVideoActivity"
+36-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:20:19-65
+37            android:configChanges="keyboardHidden|orientation|screenSize" />
+37-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:21:13-74
+38        <activity
+38-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:22:9-26:46
+39            android:name="com.aliyun.iot.demo.ipcview.activity.IPCameraActivity"
+39-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:23:13-54
+40            android:configChanges="keyboardHidden|orientation|screenSize"
+40-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:24:13-74
+41            android:exported="true"
+41-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:25:13-36
+42            android:launchMode="singleTop" />
+42-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:26:13-43
+43        <activity
+43-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:27:9-29:77
+44            android:name="com.aliyun.iot.demo.ipcview.activity.CardVideoActivity"
+44-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:28:13-55
+45            android:configChanges="keyboardHidden|orientation|screenSize" />
+45-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:29:13-74
+46        <activity
+46-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:30:9-32:77
+47            android:name="com.aliyun.iot.demo.ipcview.activity.EventVideoActivity"
+47-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:31:13-56
+48            android:configChanges="keyboardHidden|orientation|screenSize" />
+48-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:32:13-74
+49        <activity
+49-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:33:9-35:52
+50            android:name="com.aliyun.iot.demo.ipcview.activity.SettingsActivity"
+50-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:34:13-54
+51            android:theme="@style/SettingsTheme" />
+51-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:35:13-49
+52        <activity android:name="com.aliyun.iot.demo.ipcview.activity.EasyPlanSettingsActivity" />
+52-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:36:9-71
+52-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:36:19-68
+53        <activity
+53-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:37:9-39:46
+54            android:name="com.aliyun.iot.demo.ipcview.activity.PictureTestActivity"
+54-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:38:13-57
+55            android:theme="@style/myTheme" />
+55-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:39:13-43
+56        <activity
+56-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:40:9-41:76
+57            android:name="com.aliyun.iot.demo.ipcview.activity.MultiPlayerActivity"
+57-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:40:19-63
+58            android:configChanges="keyboardHidden|orientation|screenSize" />
+58-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:41:13-74
+59    </application>
+60
+61</manifest>

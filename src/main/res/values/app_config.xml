@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_app_name" translatable="false">智能插座</string>
+    <drawable name="config_app_icon">@mipmap/app_launcher</drawable>
+    <drawable name="config_app_icon_round">@mipmap/app_launcher_round</drawable>
+
+    <string name="push_huawei_appid" translatable="false">替换成自己申请的华为appid</string>
+    <string name="push_vivo_api_key" translatable="false">替换成自己申请的vivo appkey</string>
+    <string name="push_vivo_app_id" translatable="false">替换成自己申请的vivo appid</string>
+</resources>

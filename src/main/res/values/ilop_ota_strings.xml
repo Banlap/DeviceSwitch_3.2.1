@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ota_all_latest_version">全部是最新版本</string>
+    <string name="ota_network_error">网络请求错误</string>
+    <string name="ota_loading">加载中</string>
+
+    <!--ota-->
+    <string name="ota">固件升级</string>
+    <string name="ota_upgrade_success">升级成功</string>
+    <string name="ota_pre_upgrade">立即升级</string>
+    <string name="ota_current_version">当前版本</string>
+    <string name="ota_doing_upgrade">升级中</string>
+    <string name="ota_did_upgrade">完成</string>
+    <string name="ota_refresh">刷新</string>
+    <string name="ota_get_info_error">获取固件信息失败,请重试</string>
+    <string name="ota_did_upgrade_failure">固件升级失败,是否重试</string>
+    <string name="ota_did_upgrade_error">设备无响应,请重试</string>
+    <string name="ota_did_upgrade_try_again">重试</string>
+
+
+    <!--dialog相关-->
+    <string name="ota_dialog_negative">取消</string>
+    <string name="ota_dialog_positive">确认</string>
+
+    <string name="ota_waiting">等待中</string>
+
+</resources>

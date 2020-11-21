@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@color/mine_color_FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/mine_topbar_back_container_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="17dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/ilop_ota_icon_back_arrow"
+            android:contentDescription="TODO" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mine_topbar_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/mine_color_000000"
+        android:textSize="17dp" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mine_color_CCCCCC" />
+</RelativeLayout>

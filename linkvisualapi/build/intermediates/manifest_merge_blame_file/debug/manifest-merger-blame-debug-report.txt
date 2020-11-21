@@ -1,0 +1,22 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.aliyun.iotx.linkvision"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\linkvisualapi\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\linkvisualapi\src\main\AndroidManifest.xml
+11
+12    <application
+12-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\linkvisualapi\src\main\AndroidManifest.xml:5:1-7:15
+13        android:allowBackup="false"
+13-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\linkvisualapi\src\main\AndroidManifest.xml:6:5-32
+14        tools:replace="android:allowBackup" >
+14-->D:\workstation\androidStudioWorkStation\project-sources\project-sources\linkvisualapi\src\main\AndroidManifest.xml:5:14-49
+15    </application>
+16
+17</manifest>

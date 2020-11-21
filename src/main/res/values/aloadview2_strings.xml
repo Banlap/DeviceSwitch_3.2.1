@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- load view begin -->
+    <string name="aloadview2_clickreload">重新加载</string>
+    <string name="aloadview2_loadingerror">加载失败</string>
+    <string name="aloadview2_loading">加载中</string>
+    <!-- load view end   -->
+
+</resources>

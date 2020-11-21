@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="index_left_icon_size">28dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="image_width">40dip</dimen>
+    <dimen name="image_height">40dip</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_13sp">13dp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_11sp">11sp</dimen>
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="title_bar_height">54dp</dimen>
+    <dimen name="contact_list_item_name_text_size">14sp</dimen>
+    <dimen name="contact_list_item_describe_text_size">12sp</dimen>
+    <dimen name="key_board_margin_top">6.0dip</dimen>
+    <dimen name="key_board_txt_size">17.0dip</dimen>
+
+    <dimen name="border_margin">12dp</dimen>
+
+    <dimen name="ui_font_size">18sp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="default_pen_size_min">4dp</dimen>
+    <dimen name="default_pen_size_max">24dp</dimen>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="action_bar_logo_width">48dip</dimen>
+    <dimen name="action_button_width">48dp</dimen>
+    <dimen name="action_button_padding_v">4dp</dimen>
+    <dimen name="tool_palette_gutter">6dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="image_edit_text_size">12dp</dimen>
+    <dimen name="image_edit_text_padding">7dp</dimen>
+
+    <dimen name="popup_width">300dp</dimen>
+
+    <!--搜索 -->
+    <dimen name="search_main_cancel_text_size">18dp</dimen>
+    <dimen name="search_main_tip_text_size">16dp</dimen>
+    <dimen name="search_main_grid_category_text_size">14dp</dimen>
+
+    <dimen name="search_main_grid_category_rl_height">70dp</dimen>
+    <dimen name="search_main_grid_category_tx_width">60dp</dimen>
+    <dimen name="search_main_grid_category_rl_separation">12dp</dimen>
+
+    <!-- 自定义表情 -->
+    <dimen name="emoticon_bar_tool_btn_width">46dp</dimen>
+    <dimen name="emoticon_item_size_default">25dp</dimen>
+</resources>

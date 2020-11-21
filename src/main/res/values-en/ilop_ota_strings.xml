@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="ota">Upgrade</string>
+  <string name="ota_loading">Loading</string>
+  <string name="ota_all_latest_version">No new version</string>
+  <string name="ota_current_version">Current version</string>
+  <string name="ota_dialog_negative">Cancel</string>
+  <string name="ota_dialog_positive">Confirm</string>
+  <string name="ota_did_upgrade">Complete</string>
+  <string name="ota_did_upgrade_error">No response, please try again</string>
+  <string name="ota_did_upgrade_failure">Failed to upgrade, whether to try again?</string>
+  <string name="ota_did_upgrade_try_again">Retry</string>
+  <string name="ota_doing_upgrade">Upgrading</string>
+  <string name="ota_get_info_error">Loading failure. Please try again.</string>
+  <string name="ota_network_error">Network error</string>
+  <string name="ota_pre_upgrade">Upgrade immediately</string>
+  <string name="ota_refresh">Refresh</string>
+  <string name="ota_upgrade_success">Upgrade successfully</string>
+  <string name="ota_waiting">Waiting</string>
+</resources>

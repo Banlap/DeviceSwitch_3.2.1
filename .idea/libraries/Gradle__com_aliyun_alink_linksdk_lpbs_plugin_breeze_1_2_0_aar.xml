@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.alink.linksdk:lpbs-plugin-breeze:1.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f27e67f3a0e3cafaed64be4ca0a9cd57/lpbs-plugin-breeze-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f27e67f3a0e3cafaed64be4ca0a9cd57/lpbs-plugin-breeze-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f27e67f3a0e3cafaed64be4ca0a9cd57/lpbs-plugin-breeze-1.2.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

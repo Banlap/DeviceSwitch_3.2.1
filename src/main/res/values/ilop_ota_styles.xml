@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OTALoadingStyle" parent="SimpleLoadViewStyle">
+        <item name="slv_loadview_location">1</item>
+        <item name="slv_tipview_location">1</item>
+    </style>
+</resources>

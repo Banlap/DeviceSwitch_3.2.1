@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ALoadView2">
+        <attr name="aloadview2_loadBackground" format="color|reference"/>
+        <attr name="aloadview2_loadingIcon" format="reference"/>
+        <attr name="aloadview2_loadingIconSize" format="dimension|reference"/>
+        <attr name="aloadview2_loadingTipText" format="string|reference"/>
+        <attr name="aloadview2_loadingTipTextSize" format="dimension|reference"/>
+        <attr name="aloadview2_loadingTipTextColor" format="color|reference"/>
+        <attr name="aloadview2_errorBackground" format="color|reference"/>
+        <attr name="aloadview2_errorIcon" format="reference"/>
+        <attr name="aloadview2_errorIconSize" format="dimension|reference"/>
+        <attr name="aloadview2_errorTipText" format="string|reference"/>
+        <attr name="aloadview2_errorTipTextSize" format="dimension|reference"/>
+        <attr name="aloadview2_errorTipTextColor" format="color|reference"/>
+        <attr name="aloadview2_retryBackground" format="color|reference"/>
+        <attr name="aloadview2_retryText" format="string|reference"/>
+        <attr name="aloadview2_retryTextSize" format="dimension|reference"/>
+        <attr name="aloadview2_retryTextColor" format="color|reference"/>
+    </declare-styleable>
+</resources>

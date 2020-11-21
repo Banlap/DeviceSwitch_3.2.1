@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="alog_title">日志服务</string>
+
+    <string name="account_choose_register_style">请选择您要注册的账号类型</string>
+    <string name="account_choose_find_pwd_style">请选择找回密码的方式</string>
+    <string name="account_choose_find_pwd_style_phone">手机找回</string>
+    <string name="account_choose_find_pwd_style_email">邮箱找回</string>
+    <string name="account_phone_register">手机注册</string>
+    <string name="account_cancel">取消</string>
+</resources>

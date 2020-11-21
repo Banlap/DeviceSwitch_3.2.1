@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:minHeight="85dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/list_item_device_icon"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_add_device"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="77dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_item_device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#4A4A4A"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText"
+            tools:text="21312321" />
+
+        <TextView
+            android:id="@+id/list_item_device_mac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#757575"
+            android:textSize="12sp"
+            android:typeface="monospace"
+            tools:ignore="HardcodedText"
+            tools:text="21312321" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/list_item_device_action"
+        android:layout_width="57dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="12.5dp"
+        android:background="@drawable/ilop_connect_btn_selector"
+        android:text="连接"
+        android:textColor="#4690F0"
+        android:textSize="13sp"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#EFEFEF" />
+</FrameLayout>

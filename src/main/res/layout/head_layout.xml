@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/fins_text"
+        android:textSize="@dimen/text_size_18"
+        android:textColor="@color/tx_orangeplus_color"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:text="返回"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+     <TextView
+         android:id="@+id/talto_text"
+         android:layout_centerVertical="true"
+         android:gravity="center_vertical"
+         android:layout_centerHorizontal="true"
+         android:textColor="@color/black"
+         android:textSize="@dimen/text_size_18"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/add_image"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/link_color"
+        android:textSize="@dimen/text_size_16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:visibility="gone"
+        android:background="@mipmap/icon_tianjiashebei"
+        android:id="@+id/add_event"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_gray_color"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:id="@+id/find_text"
+        android:textSize="@dimen/text_size_18"
+        android:textColor="@color/text_color_pressed"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:text="搜索"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

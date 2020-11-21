@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mine_color_CCCCCC">#CCCCCC</color>
+    <color name="mine_color_333333">#333333</color>
+    <color name="mine_color_FFFFFF">#FFFFFF</color>
+    <color name="mine_color_F6F6F6">#F6F6F6</color>
+    <color name="mine_color_EDEDED">#EDEDED</color>
+    <color name="mine_color_000000">#000000</color>
+    <color name="mine_color_AFB8BD">#AFB8BD</color>
+    <color name="mine_color_999999">#999999</color>
+    <color name="mine_color_1FC88B">#1FC88B</color>
+    <color name="mine_color_FF3838">#FF3838</color>
+    <color name="mine_color_18A06F">#18A06F</color>
+    <color name="mine_color_030303">#030303</color>
+    <color name="mine_color_00000000">#00000000</color>
+    <color name="mine_color_33000000">#33000000</color>
+</resources>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.canyinghao:canadapter:1.1.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/edbaaeded1f8468f9ec1d638314c38a4/jetified-canadapter-1.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/edbaaeded1f8468f9ec1d638314c38a4/jetified-canadapter-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/edbaaeded1f8468f9ec1d638314c38a4/jetified-canadapter-1.1.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.canyinghao/canadapter/1.1.5/7d6c9362f02a10eff4520d10b7e098db806b3c68/canadapter-1.1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.canyinghao/canadapter/1.1.5/15fe41720ce0b43f63b6e971a24095c9e4cbac48/canadapter-1.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

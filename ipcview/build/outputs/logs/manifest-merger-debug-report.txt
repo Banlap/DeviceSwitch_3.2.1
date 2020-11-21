@@ -1,0 +1,141 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:4:5-42
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:6:5-42:19
+	android:allowBackup
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:7:9-36
+	tools:replace
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:6:18-53
+provider#androidx.core.content.FileProvider
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:9:9-17:20
+	android:grantUriPermissions
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:13:13-47
+	android:authorities
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:11:13-60
+	android:exported
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:10:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:14:13-16:58
+	android:resource
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:16:17-55
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:15:17-67
+activity#com.aliyun.iot.demo.ipcview.activity.NewCardVideoActivity
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:18:9-19:77
+	android:configChanges
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:19:13-74
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:18:19-64
+activity#com.aliyun.iot.demo.ipcview.activity.NewEventVideoActivity
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:20:9-21:77
+	android:configChanges
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:21:13-74
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:20:19-65
+activity#com.aliyun.iot.demo.ipcview.activity.IPCameraActivity
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:22:9-26:46
+	android:launchMode
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:26:13-43
+	android:exported
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:25:13-36
+	android:configChanges
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:24:13-74
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:23:13-54
+activity#com.aliyun.iot.demo.ipcview.activity.CardVideoActivity
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:27:9-29:77
+	android:configChanges
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:29:13-74
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:28:13-55
+activity#com.aliyun.iot.demo.ipcview.activity.EventVideoActivity
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:30:9-32:77
+	android:configChanges
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:32:13-74
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:31:13-56
+activity#com.aliyun.iot.demo.ipcview.activity.SettingsActivity
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:33:9-35:52
+	android:theme
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:34:13-54
+activity#com.aliyun.iot.demo.ipcview.activity.EasyPlanSettingsActivity
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:36:9-71
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:36:19-68
+activity#com.aliyun.iot.demo.ipcview.activity.PictureTestActivity
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:37:9-39:46
+	android:theme
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:39:13-43
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:38:13-57
+activity#com.aliyun.iot.demo.ipcview.activity.MultiPlayerActivity
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:40:9-41:76
+	android:configChanges
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:41:13-74
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:40:19-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:43:5-80
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:43:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:44:5-81
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:44:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:45:5-79
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:45:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:46:5-76
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:46:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:47:5-86
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:47:22-83
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:49:5-78
+	android:name
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml:49:22-75
+uses-sdk
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+		ADDED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml
+		INJECTED from D:\workstation\androidStudioWorkStation\project-sources\project-sources\ipcview\src\main\AndroidManifest.xml

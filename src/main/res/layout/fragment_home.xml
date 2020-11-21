@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.aliyun.iot.ilop.demo.kaiguan.fragment.HomeFragment">
+   <include android:id="@+id/head_layout" android:layout_width="match_parent" android:layout_height="80dp" layout="@layout/home_head_layout"/>
+   <include  android:id="@+id/switch_layout" android:layout_width="match_parent" android:layout_height="wrap_content"  layout="@layout/switch_layout"/>
+   <RelativeLayout
+       android:layout_marginTop="10dp"
+       android:gravity="center_vertical"
+       android:layout_width="match_parent"
+       android:layout_height="50dp">
+      <TextView
+          android:layout_marginLeft="20dp"
+          android:text="场景"
+          android:textColor="@color/black"
+          android:textSize="@dimen/text_size_16"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <ImageView
+          android:id="@+id/more_text"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="20dp"
+          android:src="@mipmap/icon_more"
+          android:textColor="@color/black"
+          android:textSize="@dimen/text_size_16"
+          android:layout_width="50dp"
+          android:layout_height="25dp"/>
+
+   </RelativeLayout>
+
+   <com.scwang.smartrefresh.layout.SmartRefreshLayout
+       android:layout_below="@+id/head_layout"
+       android:id="@+id/srl_eventlist"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/rv_eventlist"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+   </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+
+</LinearLayout>

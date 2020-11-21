@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_login_success">登录成功</string>
+    <string name="account_login_failed">登录失败</string>
+    <string name="account_logout_success">登出成功</string>
+    <string name="account_logout_failed">登出失败</string>
+    <string name="account_title">登录SDK</string>
+</resources>

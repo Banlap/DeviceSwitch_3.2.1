@@ -1,0 +1,29 @@
+<resources>
+    <!--通道调试页面EditTextView的样式-->
+    <style name="ChannelDebug_EditTextStyle">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@color/channeldebug_pri_unenable_color</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColorHint">@color/channeldebug_textcolor_hint</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">top</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--通道调试页面引导标题样式-->
+    <style name="ChannelDebug_SubTitle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ipcview/ipcview.iml" filepath="$PROJECT_DIR$/.idea/modules/ipcview/ipcview.iml" group="project-sources/ipcview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkvisualapi/linkvisualapi.iml" filepath="$PROJECT_DIR$/.idea/modules/linkvisualapi/linkvisualapi.iml" group="project-sources/linkvisualapi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/project-sources.iml" group="project-sources" />
+    </modules>
+  </component>
+</project>

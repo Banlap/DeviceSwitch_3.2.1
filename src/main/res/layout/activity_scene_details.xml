@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.aliyun.iot.ilop.demo.kaiguan.activity.SceneDetailsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@mipmap/bg_wode"
+            android:id="@+id/body_image"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+        <TextView
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/text_size_18"
+            android:textColor="@color/white"
+            android:text="场景详情"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/sve_data"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/white"
+            android:text="保存"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:visibility="gone"
+            android:textSize="@dimen/text_size_11sp"
+            android:id="@+id/body_text"
+            android:layout_below="@+id/body_image"
+            android:gravity="center"
+            android:text="可根据自己的需求设置一键控制多个设备（上限为100）的开关"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/open_vip_headicon"
+            style="@style/headicon_style"
+            android:layout_below="@+id/body_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/slide_shou_rlayout"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/wifi_image"
+            android:textSize="@dimen/text_size_16"
+            android:text="场景名字"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="飞利浦前顶灯"
+            android:textColor="@color/tx_bk_color"
+            android:textSize="@dimen/text_size_16" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/slide_shou_rlayout"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/wifi_image"
+            android:textSize="@dimen/text_size_16"
+            android:text="编号"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/sid_text"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/tx_bk_color"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:text="SDJ282883"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_below="@+id/slide_shou_rlayout"
+        android:background="@color/bg_gray_color"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/wifi_image"
+            android:textSize="@dimen/text_size_16"
+            android:text="设备开关"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/add_device"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/tx_bk_color"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/icon_tianjiashebei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_eventlist"
+            android:layout_marginBottom="125dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_marginBottom="10dp"
+         android:background="@color/bg_gray_color"
+         android:layout_alignParentBottom="true"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/time_text"
+             android:textColor="@color/white"
+             android:textSize="@dimen/text_size_14"
+             android:background="@drawable/selector_btn_wsit"
+             android:layout_marginTop="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+             android:gravity="center"
+             android:text="设置定时"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"/>
+
+         <TextView
+             android:id="@+id/delete_text"
+             android:textColor="@color/white"
+             android:textSize="@dimen/text_size_14"
+             android:background="@drawable/selector_btn_wsit"
+             android:layout_marginTop="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+             android:gravity="center"
+             android:text="删除场景"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"/>
+     </LinearLayout>
+
+</RelativeLayout>

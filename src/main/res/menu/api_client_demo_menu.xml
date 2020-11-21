@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/api_client_demo_menus">
+        <item
+            android:id="@+id/api_client_demo_menu_api_list"
+            android:showAsAction="always"
+            android:title="常用API列表" />
+        <item
+            android:id="@+id/api_client_demo_menu_login"
+            android:showAsAction="ifRoom"
+            android:title="登录接口" />
+        <item
+            android:id="@+id/api_client_demo_menu_unlogin"
+            android:showAsAction="ifRoom"
+            android:title="非登录接口" />
+    </group>
+</menu>

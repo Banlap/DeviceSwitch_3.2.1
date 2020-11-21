@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lamps_bg"
+    android:orientation="vertical">
+
+    <com.aliyun.iot.ilop.demo.view.SimpleToolBar
+        android:id="@+id/lamps_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lamps_lamps_status_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="95dp"
+                android:text="设备在线"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30sp" />
+
+            <ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="83dp">
+
+                <LinearLayout
+                    android:id="@+id/lamps_lamps_switch_ll"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/shape_lamps_switch_bg"
+                    android:orientation="vertical"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@+id/lamps_lamps_switch_ll_turn">
+
+                    <LampsSwitchView
+                        android:id="@+id/lamps_lamps_left_lsv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lamps_lamps_switch_ll_turn"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="7dp"
+
+                    android:background="@drawable/shape_lamps_switch_bg"
+                    android:orientation="vertical"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintLeft_toRightOf="@id/lamps_lamps_switch_ll"
+                    app:layout_constraintRight_toRightOf="parent">
+
+                    <LampsSwitchView
+                        android:id="@+id/lamps_lamps_right_lsv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+
+            </ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/lamps_palettes_ll"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/shape_lamps_switch_bg"
+                android:gravity="center_vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HSV调色"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1px"
+                    android:layout_weight="1" />
+
+                <com.aliyun.iot.ilop.demo.view.CircleView
+                    android:id="@+id/lamps_palettes_circle"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    app:color="#0071ff00"
+                    app:radius="8dp" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:src="@drawable/lamps_next" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

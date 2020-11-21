@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="aloadview2_dark"><!-- 用于深色背景 -->
+        <item name="aloadview2_loadBackground">@android:color/transparent</item>
+        <item name="aloadview2_loadingIcon">@drawable/aloadview2_loading</item>
+        <item name="aloadview2_loadingIconSize">29dp</item>
+        <item name="aloadview2_loadingTipText">@null</item>
+        <item name="aloadview2_loadingTipTextSize">16dp</item>
+        <item name="aloadview2_loadingTipTextColor">@null</item>
+        <item name="aloadview2_errorBackground">@android:color/transparent</item>
+        <item name="aloadview2_errorIcon">@drawable/aloadview2_loadingerror_dark</item>
+        <item name="aloadview2_errorIconSize">44dp</item>
+        <item name="aloadview2_errorTipText">@string/aloadview2_loadingerror</item>
+        <item name="aloadview2_errorTipTextSize">16dp</item>
+        <item name="aloadview2_errorTipTextColor">#FFFFFFFF</item>
+        <item name="aloadview2_retryBackground">@drawable/aloadview2_retry_background_white</item>
+        <item name="aloadview2_retryText">@string/aloadview2_clickreload</item>
+        <item name="aloadview2_retryTextSize">14dp</item>
+        <item name="aloadview2_retryTextColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="aloadview2_light"><!-- 用于浅色背景 -->
+        <item name="aloadview2_loadBackground">@android:color/transparent</item>
+        <item name="aloadview2_loadingIcon">@drawable/aloadview2_loading</item>
+        <item name="aloadview2_loadingIconSize">29dp</item>
+        <item name="aloadview2_loadingTipText">@null</item>
+        <item name="aloadview2_loadingTipTextSize">16dp</item>
+        <item name="aloadview2_loadingTipTextColor">@null</item>
+        <item name="aloadview2_errorBackground">@android:color/transparent</item>
+        <item name="aloadview2_errorIcon">@drawable/aloadview2_loadingerror_light</item>
+        <item name="aloadview2_errorIconSize">44dp</item>
+        <item name="aloadview2_errorTipText">@string/aloadview2_loadingerror</item>
+        <item name="aloadview2_errorTipTextSize">16dp</item>
+        <item name="aloadview2_errorTipTextColor">#FF9AC3BF</item>
+        <item name="aloadview2_retryBackground">@drawable/aloadview2_retry_background_green</item>
+        <item name="aloadview2_retryText">@string/aloadview2_clickreload</item>
+        <item name="aloadview2_retryTextSize">14dp</item>
+        <item name="aloadview2_retryTextColor">#FF00C7B2</item>
+    </style>
+</resources>

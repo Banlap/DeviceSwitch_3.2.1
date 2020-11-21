@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Escolher uma aplicação"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"eliminar"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Função +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partilhar com"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Partilhar com a aplicação <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Reduzir"</string>
+    <string name="account_auth_login">Conta de terceiros</string>
+    <string name="account_auth_login_failed">Falha ao iniciar sessão</string>
+    <string name="account_cancel">Cancelar</string>
+    <string name="account_change_password">Alterar palavra-passe</string>
+    <string name="account_choose_find_pwd_style">Selecione o método de obtenção</string>
+    <string name="account_choose_find_pwd_style_email">E-mail</string>
+    <string name="account_choose_find_pwd_style_phone">Número de telemóvel</string>
+    <string name="account_choose_register_style">Selecionar método de registo</string>
+    <string name="account_choose_register_style_email">E-mail</string>
+    <string name="account_choose_register_style_phone">Número de telemóvel</string>
+    <string name="account_complete">Concluído</string>
+    <string name="account_continue">Confirmar</string>
+    <string name="account_country_code">Código do país/região</string>
+    <string name="account_email_verify_code">Código de verificação</string>
+    <string name="account_error_time">Exceção de definição de hora atual</string>
+    <string name="account_find_password">Recuperar palavra-passe</string>
+    <string name="account_forget_password">Esqueceu-se da palavra-passe</string>
+    <string name="account_get_accesstoken_error">Falha ao obter o token de acesso</string>
+    <string name="account_get_country_error">Falha ao obter o código do país/área</string>
+    <string name="account_hot_country">País/região popular</string>
+    <string name="account_input_new_passwrod">Introduzir nova palavra-passe</string>
+    <string name="account_input_password">Introduzir palavra-passe</string>
+    <string name="account_loading_loginout">A sair de sessão...</string>
+    <string name="account_login">Iniciar sessão</string>
+    <string name="account_login_failed">Falha ao iniciar sessão</string>
+    <string name="account_login_success">Início de sessão efetuado com êxito</string>
+    <string name="account_logout_failed">Falha ao terminar sessão</string>
+    <string name="account_logout_success">Sessão terminada com êxito</string>
+    <string name="account_name_hint">Conta</string>
+    <string name="account_network_anomaly">Erro de rede</string>
+    <string name="account_next">Seguinte</string>
+    <string name="account_password_hint">Palavra-passe</string>
+    <string name="account_phone">Número de telemóvel</string>
+    <string name="account_phone_number">Número de telemóvel</string>
+    <string name="account_phone_register">Número de telemóvel</string>
+    <string name="account_register">免费注册</string>
+    <string name="account_register_free">Inscreva-se</string>
+    <string name="account_reset_pwd">Repor palavra-passe</string>
+    <string name="account_select_country_code">Selecione o código do país/região</string>
+    <string name="account_send_email_code">发送邮箱校验码</string>
+    <string name="account_send_verify_code">Enviar código de verificação</string>
+    <string name="account_sms_verify_code">Código de verificação</string>
+    <string name="account_ssl_error">O certificado SSL da página atual pode não ser fidedigno, confirme se está aberto?</string>
+    <string name="account_sure">OK</string>
+    <string name="account_user_name">Conta</string>
+    <string name="ali_sdk_openaccount_cancel">Cancelar</string>
+    <string name="ali_sdk_openaccount_confirm">Confirmar</string>
+    <string name="ali_sdk_openaccount_dynamic_icon_eye"></string>
+    <string name="ali_sdk_openaccount_dynamic_icon_eye_open"></string>
+    <string name="ali_sdk_openaccount_dynamic_loading_progress_message">A carregar...</string>
+    <string name="ali_sdk_openaccount_dynamic_network_not_available_message">Erros de rede</string>
+    <string name="ali_sdk_openaccount_dynamic_system_exception">Sistema de exceção</string>
+    <string name="ali_sdk_openaccount_dynamic_text_activity_basewebviewactivity_strings_menulist_copy">Já copiado para a área de transferência</string>
+    <string name="ali_sdk_openaccount_dynamic_text_alert_msg_after_login"/>
+    <string name="ali_sdk_openaccount_dynamic_text_back_message">Anterior</string>
+    <string name="ali_sdk_openaccount_dynamic_text_close_message">Desligado</string>
+    <string name="ali_sdk_openaccount_dynamic_text_go_email_register_check">Quer verificar os seus e-mails agora?</string>
+    <string name="ali_sdk_openaccount_dynamic_text_go_email_register_check_no">Não</string>
+    <string name="ali_sdk_openaccount_dynamic_text_go_email_register_check_yes">Sim</string>
+    <string name="ali_sdk_openaccount_dynamic_text_iknow">OK</string>
+    <string name="ali_sdk_openaccount_dynamic_text_jaq_default_verify_error">Erro de verificação</string>
+    <string name="ali_sdk_openaccount_dynamic_text_jaq_nocapcha_verify_error">Erro ao deslizar a verificação</string>
+    <string name="ali_sdk_openaccount_dynamic_text_jaq_sms_verify_error">Erro na verificação do SMS</string>
+    <string name="ali_sdk_openaccount_dynamic_text_mobile">Número de telemóvel</string>
+    <string name="ali_sdk_openaccount_dynamic_text_mobile_or_login_id">telemóvel/alcunha</string>
+    <string name="ali_sdk_openaccount_dynamic_text_network_exception">Erro de rede</string>
+    <string name="ali_sdk_openaccount_dynamic_text_qr_confirm_title_bar">QR Login</string>
+    <string name="ali_sdk_openaccount_dynamic_text_system_exception">सSystem is busy. Please try again later.</string>
+    <string name="ali_sdk_openaccount_email_code_success_hint"/>
+    <string name="ali_sdk_openaccount_ssl_error_info"/>
+    <string name="ali_sdk_openaccount_ssl_error_title"/>
+    <string name="ali_sdk_openaccount_text_account_device">Gerir equipamentos</string>
+    <string name="ali_sdk_openaccount_text_account_nonexist">A conta não existe</string>
+    <string name="ali_sdk_openaccount_text_account_security_info">Após a ativação, deve fazer a verificação quando utilizar um novo equipamento para iniciar sessão.</string>
+    <string name="ali_sdk_openaccount_text_account_security_title">Proteção de contas</string>
+    <string name="ali_sdk_openaccount_text_agree">Concordo</string>
+    <string name="ali_sdk_openaccount_text_alipay">Alipay</string>
+    <string name="ali_sdk_openaccount_text_already_register">O número de telefone %s já está registado</string>
+    <string name="ali_sdk_openaccount_text_change_mobile">Ligar ao telemóvel</string>
+    <string name="ali_sdk_openaccount_text_check_code">Código de verificação</string>
+    <string name="ali_sdk_openaccount_text_checkcode">Código de verificação</string>
+    <string name="ali_sdk_openaccount_text_checkmail">Verificar e-mail</string>
+    <string name="ali_sdk_openaccount_text_confirm">Confirmar</string>
+    <string name="ali_sdk_openaccount_text_confirm_login">Iniciar sessão</string>
+    <string name="ali_sdk_openaccount_text_confirm_pwd">Confirme palavra-passe</string>
+    <string name="ali_sdk_openaccount_text_confirm_register">Concordar com o acordo e efetuar o registo</string>
+    <string name="ali_sdk_openaccount_text_count_down">(%s)</string>
+    <string name="ali_sdk_openaccount_text_delete">Eliminar</string>
+    <string name="ali_sdk_openaccount_text_device_current">current equipment</string>
+    <string name="ali_sdk_openaccount_text_device_logintime">Hora de início de sessão</string>
+    <string name="ali_sdk_openaccount_text_device_name">Device Name</string>
+    <string name="ali_sdk_openaccount_text_device_not_del_current">You cannot delete current equipment</string>
+    <string name="ali_sdk_openaccount_text_email_register">Endereço de e-mail</string>
+    <string name="ali_sdk_openaccount_text_email_reset_password">Repor palavra-passe de e-mail</string>
+    <string name="ali_sdk_openaccount_text_enter_check_code">Introduza o código de verificaçãoं</string>
+    <string name="ali_sdk_openaccount_text_enter_mobile">Introduza o seu telemóvel</string>
+    <string name="ali_sdk_openaccount_text_exit">Sign out</string>
+    <string name="ali_sdk_openaccount_text_exit_register">Não efetuar o registo, sair</string>
+    <string name="ali_sdk_openaccount_text_find_password">Recuperar palavra-passe</string>
+    <string name="ali_sdk_openaccount_text_forget_password">Esqueceu-se da palavra-passe</string>
+    <string name="ali_sdk_openaccount_text_free_register">Free Sign-up</string>
+    <string name="ali_sdk_openaccount_text_login">Iniciar sessão</string>
+    <string name="ali_sdk_openaccount_text_loginId">Telemóvel/E-mail</string>
+    <string name="ali_sdk_openaccount_text_login_password">Palavra-passe</string>
+    <string name="ali_sdk_openaccount_text_mail">Endereço de e-mail</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_code_subfix">+</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_default_code">351</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_search_hint">Procurar</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_title">Selecione o código do país/região</string>
+    <string name="ali_sdk_openaccount_text_new_password">Introduzir nova palavra-passe</string>
+    <string name="ali_sdk_openaccount_text_new_pwd">Nova palavra-passe (mais de 6 carateres com combinação de números e carateres)</string>
+    <string name="ali_sdk_openaccount_text_next_step">Seguinte</string>
+    <string name="ali_sdk_openaccount_text_no_password_login">Iniciar sessão sem palavra-passeं</string>
+    <string name="ali_sdk_openaccount_text_not_register">O número de telefone %s ainda não está registado</string>
+    <string name="ali_sdk_openaccount_text_other_plateform_login">Outra conta</string>
+    <string name="ali_sdk_openaccount_text_password">Palavra-passe</string>
+    <string name="ali_sdk_openaccount_text_protocol"/>
+    <string name="ali_sdk_openaccount_text_qq">QQ</string>
+    <string name="ali_sdk_openaccount_text_qr_login_title_bar">
+  </string>
+    <string name="ali_sdk_openaccount_text_register">Registar</string>
+    <string name="ali_sdk_openaccount_text_register_confirm">Registar</string>
+    <string name="ali_sdk_openaccount_text_register_hot_regions">popular countries and regions</string>
+    <string name="ali_sdk_openaccount_text_register_password_rule">6 a 20 carateres com números, símbolos e carateres em inglês</string>
+    <string name="ali_sdk_openaccount_text_reset_password">Repor palavra-passe</string>
+    <string name="ali_sdk_openaccount_text_reset_password_rule">Para sua segurança, a nova palavra-passe não pode ser a mesma que a antiga. A palavra-passe deve ter de 6 a 20 carateres, com carateres, números e símbolos em inglês</string>
+    <string name="ali_sdk_openaccount_text_send_sms_code">Enviar código SMS</string>
+    <string name="ali_sdk_openaccount_text_sendmail">Send Verification Codeं</string>
+    <string name="ali_sdk_openaccount_text_set_account_info">Gerir informações da contaं</string>
+    <string name="ali_sdk_openaccount_text_set_password">Definir palavra-passe</string>
+    <string name="ali_sdk_openaccount_text_set_pwd">Defina a sua palavra-passe (mais de 6 carateres com combinação de números e carateres)</string>
+    <string name="ali_sdk_openaccount_text_sms_code">Código de verificação</string>
+    <string name="ali_sdk_openaccount_text_sms_login">Iniciar sessão por código SMS</string>
+    <string name="ali_sdk_openaccount_text_sms_register">Registar-se por SMS</string>
+    <string name="ali_sdk_openaccount_text_taobao">Taobao</string>
+    <string name="ali_sdk_openaccount_text_username">Conta</string>
+    <string name="ali_sdk_openaccount_text_weibo">Weibo</string>
+    <string name="ali_sdk_openaccount_text_weixin">WeChat</string>
+    <string name="ali_sdk_openaccount_text_whether_to_login">Quer utilizar o telemóvel para iniciar sessão?</string>
+    <string name="ali_sdk_openaccount_text_whether_to_register">Pretende registar-se com este número de telemóvel?</string>
+    <string name="alisdk_openaccount_message_10000_action">
+  </string>
+    <string name="alisdk_openaccount_message_10000_message">
+  </string>
+    <string name="alisdk_openaccount_message_10000_name">
+  </string>
+    <string name="alisdk_openaccount_message_10000_type">
+  </string>
+    <string name="alisdk_openaccount_message_10002_action">
+  </string>
+    <string name="alisdk_openaccount_message_10002_message">
+  </string>
+    <string name="alisdk_openaccount_message_10002_name">
+  </string>
+    <string name="alisdk_openaccount_message_10002_type">
+  </string>
+    <string name="alisdk_openaccount_message_10003_action">
+  </string>
+    <string name="alisdk_openaccount_message_10003_message">当前操作已经取消</string>
+    <string name="alisdk_openaccount_message_10003_name">
+  </string>
+    <string name="alisdk_openaccount_message_10003_type">
+  </string>
+    <string name="alisdk_openaccount_message_10004_action">
+  </string>
+    <string name="alisdk_openaccount_message_10004_message">
+  </string>
+    <string name="alisdk_openaccount_message_10004_name">
+  </string>
+    <string name="alisdk_openaccount_message_10004_type">
+  </string>
+    <string name="alisdk_openaccount_message_10010_action">
+  </string>
+    <string name="alisdk_openaccount_message_10010_message">
+  </string>
+    <string name="alisdk_openaccount_message_10010_name">
+  </string>
+    <string name="alisdk_openaccount_message_10010_type">
+  </string>
+    <string name="alisdk_openaccount_message_10011_action">
+  </string>
+    <string name="alisdk_openaccount_message_10011_message">
+  </string>
+    <string name="alisdk_openaccount_message_10011_name">
+  </string>
+    <string name="alisdk_openaccount_message_10011_type">
+  </string>
+    <string name="alisdk_openaccount_message_10012_action">
+  </string>
+    <string name="alisdk_openaccount_message_10012_message">
+  </string>
+    <string name="alisdk_openaccount_message_10012_name">
+  </string>
+    <string name="alisdk_openaccount_message_10012_type">
+  </string>
+    <string name="alisdk_openaccount_message_10013_action">
+  </string>
+    <string name="alisdk_openaccount_message_10013_message">
+  </string>
+    <string name="alisdk_openaccount_message_10013_name">
+  </string>
+    <string name="alisdk_openaccount_message_10013_type">
+  </string>
+    <string name="alisdk_openaccount_message_10014_action">नErro de rede</string>
+    <string name="alisdk_openaccount_message_10014_message">Erro de rede</string>
+    <string name="alisdk_openaccount_message_10014_name">
+  </string>
+    <string name="alisdk_openaccount_message_10014_type">
+  </string>
+    <string name="alisdk_openaccount_message_10016_action">
+  </string>
+    <string name="alisdk_openaccount_message_10016_message">
+  </string>
+    <string name="alisdk_openaccount_message_10016_type">
+  </string>
+    <string name="alisdk_openaccount_message_10017_action">
+  </string>
+    <string name="alisdk_openaccount_message_10017_message">
+  </string>
+    <string name="alisdk_openaccount_message_10017_name">
+  </string>
+    <string name="alisdk_openaccount_message_10017_type">
+  </string>
+    <string name="alisdk_openaccount_message_10018_action">
+  </string>
+    <string name="alisdk_openaccount_message_10018_message">
+  </string>
+    <string name="alisdk_openaccount_message_10018_name">
+  </string>
+    <string name="alisdk_openaccount_message_10018_type">
+  </string>
+    <string name="alisdk_openaccount_message_10019_action">
+  </string>
+    <string name="alisdk_openaccount_message_10019_message">
+  </string>
+    <string name="alisdk_openaccount_message_10019_name">
+  </string>
+    <string name="alisdk_openaccount_message_10019_type">
+  </string>
+    <string name="alisdk_openaccount_message_10020_action">
+  </string>
+    <string name="alisdk_openaccount_message_10020_message">
+  </string>
+    <string name="alisdk_openaccount_message_10020_name">
+  </string>
+    <string name="alisdk_openaccount_message_10020_type">
+  </string>
+    <string name="alisdk_openaccount_message_10022_action">
+  </string>
+    <string name="alisdk_openaccount_message_10022_message">
+  </string>
+    <string name="alisdk_openaccount_message_10022_name">
+  </string>
+    <string name="alisdk_openaccount_message_10022_type">
+  </string>
+    <string name="alisdk_openaccount_message_10023_action">
+  </string>
+    <string name="alisdk_openaccount_message_10023_message">
+  </string>
+    <string name="alisdk_openaccount_message_10023_name">
+  </string>
+    <string name="alisdk_openaccount_message_10023_type">
+  </string>
+    <string name="alisdk_openaccount_message_10024_action">
+  </string>
+    <string name="alisdk_openaccount_message_10024_message">
+  </string>
+    <string name="alisdk_openaccount_message_10024_name">
+  </string>
+    <string name="alisdk_openaccount_message_10024_type">
+  </string>
+    <string name="alisdk_openaccount_message_10025_action">
+  </string>
+    <string name="alisdk_openaccount_message_10025_message">
+  </string>
+    <string name="alisdk_openaccount_message_10025_name">
+  </string>
+    <string name="alisdk_openaccount_message_10025_type">
+  </string>
+    <string name="alisdk_openaccount_message_10026_action">
+  </string>
+    <string name="alisdk_openaccount_message_10026_message">
+  </string>
+    <string name="alisdk_openaccount_message_10026_name">
+  </string>
+    <string name="alisdk_openaccount_message_10026_type">
+  </string>
+    <string name="alisdk_openaccount_message_10040_action">
+  </string>
+    <string name="alisdk_openaccount_message_10040_message">
+  </string>
+    <string name="alisdk_openaccount_message_10040_name">
+  </string>
+    <string name="alisdk_openaccount_message_10040_type">
+  </string>
+    <string name="alisdk_openaccount_message_10041_action">
+  </string>
+    <string name="alisdk_openaccount_message_10041_message">
+  </string>
+    <string name="alisdk_openaccount_message_10041_name">
+  </string>
+    <string name="alisdk_openaccount_message_10041_type">
+  </string>
+    <string name="alisdk_openaccount_message_100_action">
+  </string>
+    <string name="alisdk_openaccount_message_100_message">
+  </string>
+    <string name="alisdk_openaccount_message_100_name">
+  </string>
+    <string name="alisdk_openaccount_message_100_type">
+  </string>
+    <string name="alisdk_openaccount_message_10100_action">
+  </string>
+    <string name="alisdk_openaccount_message_10100_message">Cancelamento de registo</string>
+    <string name="alisdk_openaccount_message_10100_name">OPEN_ACCOUNT_REGISTER_CANCEL</string>
+    <string name="alisdk_openaccount_message_10100_type">E</string>
+    <string name="alisdk_openaccount_message_10101_action"/>
+    <string name="alisdk_openaccount_message_10101_message">Cancelamento da reposição de palavra-passe</string>
+    <string name="alisdk_openaccount_message_10101_name">OPEN_ACCOUNT_RESET_PASSWORD_CANCEL</string>
+    <string name="alisdk_openaccount_message_10101_type">E</string>
+    <string name="alisdk_openaccount_message_10102_action"/>
+    <string name="alisdk_openaccount_message_10102_message">Secret login cancellation</string>
+    <string name="alisdk_openaccount_message_10102_name">OPEN_ACCOUNT_NO_PASSWORD_LOGIN_CANCEL</string>
+    <string name="alisdk_openaccount_message_10102_type">E</string>
+    <string name="alisdk_openaccount_message_10103_action"/>
+    <string name="alisdk_openaccount_message_10103_message">Cancelamento de telefone associado</string>
+    <string name="alisdk_openaccount_message_10103_name">OPEN_ACCOUNT_CHANGE_MOBILE_CANCEL</string>
+    <string name="alisdk_openaccount_message_10103_type">E</string>
+    <string name="alisdk_openaccount_message_10_action">
+  </string>
+    <string name="alisdk_openaccount_message_10_message">
+  </string>
+    <string name="alisdk_openaccount_message_10_name">
+  </string>
+    <string name="alisdk_openaccount_message_10_type">
+  </string>
+    <string name="alisdk_openaccount_message_11_action">
+  </string>
+    <string name="alisdk_openaccount_message_11_message">
+  </string>
+    <string name="alisdk_openaccount_message_11_name">
+  </string>
+    <string name="alisdk_openaccount_message_11_type">
+  </string>
+    <string name="alisdk_openaccount_message_12_action">
+  </string>
+    <string name="alisdk_openaccount_message_12_message">
+  </string>
+    <string name="alisdk_openaccount_message_12_name">
+  </string>
+    <string name="alisdk_openaccount_message_12_type">
+  </string>
+    <string name="alisdk_openaccount_message_14_action">
+  </string>
+    <string name="alisdk_openaccount_message_14_message">
+  </string>
+    <string name="alisdk_openaccount_message_14_name">
+  </string>
+    <string name="alisdk_openaccount_message_14_type">
+  </string>
+    <string name="alisdk_openaccount_message_17_action">
+  </string>
+    <string name="alisdk_openaccount_message_17_message">
+  </string>
+    <string name="alisdk_openaccount_message_17_name">
+  </string>
+    <string name="alisdk_openaccount_message_17_type">
+  </string>
+    <string name="alisdk_openaccount_message_18_action">
+  </string>
+    <string name="alisdk_openaccount_message_18_message">सO sistema está ocupado. Tente novamente mais tarde.</string>
+    <string name="alisdk_openaccount_message_18_name">
+  </string>
+    <string name="alisdk_openaccount_message_18_type">
+  </string>
+    <string name="alisdk_openaccount_message_26107_action"/>
+    <string name="alisdk_openaccount_message_26107_message">SessionId does not exist</string>
+    <string name="alisdk_openaccount_message_26107_name">OPEN_ACCOUNT_REFRESH_TOKEN_EXPIRED</string>
+    <string name="alisdk_openaccount_message_26107_type">E</string>
+    <string name="alisdk_openaccount_message_561_action">请在当前应用登录 OpenAccount 账号</string>
+    <string name="alisdk_openaccount_message_561_message">当前应用未登录, 不能扫取二维码打开扫码确认登陆页</string>
+    <string name="alisdk_openaccount_message_561_name">QR_CONFIRM_USER_NOT_LOGIN</string>
+    <string name="alisdk_openaccount_message_561_type">E</string>
+    <string name="alisdk_openaccount_message_562_action">请确保扫码确认应用与显示二维码应用属于同一个域</string>
+    <string name="alisdk_openaccount_message_562_message">当前扫码确认应用与显示二维码应用不属于同一个域</string>
+    <string name="alisdk_openaccount_message_562_name">QR_CONFIRM_DOMAIN_MISMATCH</string>
+    <string name="alisdk_openaccount_message_562_type">E</string>
+    <string name="alisdk_openaccount_message_701_action">
+  </string>
+    <string name="alisdk_openaccount_message_701_message">
+  </string>
+    <string name="alisdk_openaccount_message_701_type">
+  </string>
+    <string name="alisdk_openaccount_message_702_action">
+  </string>
+    <string name="alisdk_openaccount_message_702_message">
+  </string>
+    <string name="alisdk_openaccount_message_702_type">
+  </string>
+    <string name="alisdk_openaccount_message_703_action">
+  </string>
+    <string name="alisdk_openaccount_message_703_message">
+  </string>
+    <string name="alisdk_openaccount_message_703_type">
+  </string>
+    <string name="alisdk_openaccount_message_704_action">
+  </string>
+    <string name="alisdk_openaccount_message_704_message">
+  </string>
+    <string name="alisdk_openaccount_message_704_type">
+  </string>
+    <string name="alisdk_openaccount_message_705_action">
+  </string>
+    <string name="alisdk_openaccount_message_705_message">
+  </string>
+    <string name="alisdk_openaccount_message_705_type">
+  </string>
+    <string name="alisdk_openaccount_message_951_action">
+  </string>
+    <string name="alisdk_openaccount_message_951_message">
+  </string>
+    <string name="alisdk_openaccount_message_951_name">
+  </string>
+    <string name="alisdk_openaccount_message_951_type">
+  </string>
+    <string name="alisdk_openaccount_message_952_action">
+  </string>
+    <string name="alisdk_openaccount_message_952_message">
+  </string>
+    <string name="alisdk_openaccount_message_952_name">
+  </string>
+    <string name="alisdk_openaccount_message_952_type">
+  </string>
+    <string name="alisdk_openaccount_message_default_action">
+  </string>
+    <string name="click_retry">Clicar para tentar novamente</string>
+    <string name="com_alibaba_sdk_android_openaccount_back_message">Anterior</string>
+    <string name="com_alibaba_sdk_android_openaccount_close_message">Desligado</string>
+    <string name="com_alibaba_sdk_android_openaccount_google_activity_invalid">
+  </string>
+    <string name="com_alibaba_sdk_android_openaccount_google_fail">Falha na autorização do Google</string>
+    <string name="com_alibaba_sdk_android_openaccount_google_service_not_available">
+  </string>
+    <string name="com_alibaba_sdk_android_openaccount_more_message">Mais</string>
+    <string name="com_alibaba_sdk_android_openaccount_twitter_fail">Falha na autorização do twitter</string>
+    <string name="com_facebook_device_auth_instructions">Visita &lt;b>facebook.com/device&lt;/b> e introduz o código mostrado acima.</string>
+    <string name="com_facebook_image_download_unknown_error">Ocorreu um erro inesperado ao descarregar uma imagem.</string>
+    <string name="com_facebook_internet_permission_error_message">O início de sessão WebView necessita de permissão para aceder à INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Erro AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Gostei</string>
+    <string name="com_facebook_like_button_not_liked">Gosto</string>
+    <string name="com_facebook_loading">A carregar…</string>
+    <string name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string name="com_facebook_loginview_log_in_button">Iniciar sessão</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continuar com o Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Iniciar sessão com o Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Terminar sessão</string>
+    <string name="com_facebook_loginview_log_out_button">Terminar sessão</string>
+    <string name="com_facebook_loginview_logged_in_as">Com sessão iniciada como: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Com sessão iniciada através do Facebook</string>
+    <string name="com_facebook_send_button_text">Enviar</string>
+    <string name="com_facebook_share_button_text">Partilhar</string>
+    <string name="com_facebook_smart_device_instructions">Para ligares a tua conta, abre a app Facebook no teu dispositivo móvel e verifica se tens notificações.</string>
+    <string name="com_facebook_smart_device_instructions_or">– OU –</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Não és tu?</string>
+    <string name="com_facebook_smart_login_confirmation_title">Confirmar Início de Sessão</string>
+    <string name="com_facebook_tooltip_default">Tens o controlo: escolhe a informação que pretendes partilhar com as apps.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ativar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não funciona enquanto não ativar os serviços do Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ativar serviços do Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalar"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não é executado sem os Serviços do Google Play, os quais estão em falta no seu dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Obter serviços do Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilidade Serviços do Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erro dos Serviços do Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> está a ter problemas com os Serviços do Google Play. Tente novamente."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Não é possível executar o <ns1:g id="APP_NAME">%1$s</ns1:g> sem os Serviços do Google Play, os quais não são compatíveis com o seu dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não é executado enquanto não atualizar os serviços do Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Atualizar serviços do Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não é executado sem os serviços do Google Play, os quais estão a ser atualizados."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"É necessária uma nova versão dos serviços do Google Play. Esta será atualizada automaticamente em breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir no telemóvel"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sessão"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sessão com o Google"</string>
+    <string name="component_cancel">Cancelar</string>
+    <string name="component_set_up">Ir para Definições</string>
+    <string name="component_unopened_location_service">Permissões de localização desativadas</string>
+    <string name="component_unopened_location_service_des">Para localizar rapidamente, deixe que o Cloud Intelligence utilize os serviços de localização.</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Diversas"</string>
+    <string name="hms_abort" priority="translator">"Parar"</string>
+    <string name="hms_abort_message" priority="translator">"Parar a transferência?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s não consegue utilizar os Serviços Móveis Huawei. Aceda ao Gestor do Telefone ou às Definições, conceda todas as permissões a %2$s (incluindo início automático e secundário) e tente novamente."</string>
+    <string name="hms_cancel" priority="translator">"Cancelar"</string>
+    <string name="hms_check_failure" priority="translator">"Falha ao procurar atualizações."</string>
+    <string name="hms_check_no_update" priority="translator">"Já está a utilizar a versão mais recente."</string>
+    <string name="hms_checking" priority="translator">"A procurar atualizações…"</string>
+    <string name="hms_confirm" priority="translator">"OK"</string>
+    <string name="hms_download_failure" priority="translator">"Falha ao transferir o pacote do Huawei Mobile Services."</string>
+    <string name="hms_download_no_space" priority="translator">"Sem espaço disponível. Não é possível concluir a transferência."</string>
+    <string name="hms_download_retry" priority="translator">"Falha na transferência. Tentar novamente?"</string>
+    <string name="hms_downloading" priority="translator">"A transferir Huawei Mobile Services: %d%%"</string>
+    <string name="hms_downloading_loading" priority="LT">"A transferir"</string>
+    <string name="hms_downloading_new" priority="LT">"A transferir HMS"</string>
+    <string name="hms_gamebox_name" priority="LT">"GameCenter"</string>
+    <string name="hms_install" priority="translator">"Instalar"</string>
+    <string name="hms_install_message" priority="translator">"O Huawei Mobile Services deve estar instalado para utilizar esta funcionalidade. Instalar?"</string>
+    <string name="hms_push_channel" priority="translator">"Predefinido"</string>
+    <string name="hms_retry" priority="translator">"OK"</string>
+    <string name="hms_update" priority="translator">"Atualizar"</string>
+    <string name="hms_update_message" priority="translator">"Atualize para a versão mais recente do Huawei Mobile Services para utilizar esta funcionalidade. Atualizar?"</string>
+    <string name="hms_update_message_new" priority="LT">"Este dispositivo requer a versão mais recente da seguinte aplicação:\n\n%1$s"</string>
+    <string name="hms_update_title" priority="translator">"Huawei Mobile Services"</string>
+    <string name="locating">A localizar</string>
+    <string name="location_failed">Falha ao localizar.</string>
+    <string name="location_failed_again">Clique para tentar novamente.</string>
+    <string name="login_country_selected">Selecionar país/região</string>
+    <string name="login_create_account">Registar</string>
+    <string name="login_go_choose">OK</string>
+    <string name="login_google_text">Iniciar sessão com Google</string>
+    <string name="login_locate">A localizar</string>
+    <string name="login_location_fail">Falha ao localizar. Clicar para tentar novamente</string>
+    <string name="login_no_select_country_text">Selecione um código de país/área antes de iniciar sessão ou de se inscrever.</string>
+    <string name="login_no_select_country_title">Nenhum código de área/país é selecionado</string>
+    <string name="login_start">Iniciar sessão</string>
+    <string name="login_welcome">Bem-vindo ao\nCloud Intelligence</string>
+    <string name="messenger_send_button_text">Enviar</string>
+    <string name="mine_setting_choose_country">Selecionar país/região</string>
+    <string name="pagern_back_to_home">Anterior</string>
+    <string name="pagern_load_error">Falha de carregamento.</string>
+    <string name="pagern_load_error_code">Código de erro:%s</string>
+    <string name="pagern_no_bind">Não foram encontrados dispositivos.</string>
+    <string name="pagern_no_bind_sure">Confirmar</string>
+    <string name="region_cancel">Cancelar</string>
+    <string name="region_china">China</string>
+    <string name="region_header_title">Selecionar país/região</string>
+    <string name="scankit_confirm">OK</string>
+    <string name="scankit_light">Ativar o flash</string>
+    <string name="scankit_light_off">Desativar a luz</string>
+    <string name="scankit_no_code_tip">Nenhum código detetado.</string>
+    <string name="scankit_scan_tip">Enquadre o código</string>
+    <string name="scankit_title">Analisar</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
+    <string name="share_confirm_dialog_sure">Confirmar</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tp_loading">A carregar</string>
+    <string name="upsdk_app_dl_installing" priority="LT">"A transferir o AppGallery"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Instalar"</string>
+    <string name="upsdk_app_size" priority="translator">"Tamanho:"</string>
+    <string name="upsdk_app_version" priority="translator">"Versão:"</string>
+    <string name="upsdk_cancel" priority="translator">"Cancelar"</string>
+    <string name="upsdk_checking_update_prompt" priority="translator">"A procurar atualizações…"</string>
+    <string name="upsdk_choice_update" priority="LT">"Atualização disponível. Transfira e instale a versão mais recente."</string>
+    <string name="upsdk_connect_server_fail_prompt_toast" priority="translator">"Não é possível ligar ao servidor."</string>
+    <string name="upsdk_detail" priority="translator">"Detalhes"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"Não é possível obter a informação."</string>
+    <string name="upsdk_install" priority="LT">"Instale a atualização do AppGallery. Instalar?"</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Sem ligação à Internet. Verifique as definições de rede."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"Aplicação:"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Mais tarde"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"Sair"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Atualizar"</string>
+    <string name="upsdk_ota_title" priority="translator">"Versão nova"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"Cancelar a instalação?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Falha ao instalar."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"OK"</string>
+    <string name="upsdk_update_check_no_new_version" priority="translator">"Já está a utilizar a versão mais recente."</string>
+    <string name="upsdk_updating" priority="translator">"A atualizar"</string>
+</resources>

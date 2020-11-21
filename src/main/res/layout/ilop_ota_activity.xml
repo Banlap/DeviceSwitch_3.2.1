@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mine_color_F6F6F6"
+    android:orientation="vertical">
+
+    <com.aliyun.iot.ilop.demo.page.ota.view.SimpleTopbar
+        android:id="@+id/mine_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/mine_setting_ota_detail_wrapper_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:background="@color/color_FFFFFF">
+
+            <ImageView
+                android:id="@+id/mine_setting_ota_detail_up_arrow_imageview"
+                android:layout_width="80dp"
+                android:layout_height="88dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="41dp"
+                android:background="@drawable/ilop_ota_icon_upgrade_arrow" />
+
+            <ImageView
+                android:id="@+id/mine_setting_ota_detail_success_imageview"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="41dp"
+                android:background="@drawable/ilop_ota_icon_done"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/mine_setting_ota_detail_tips_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/mine_color_1FC88B"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mine_setting_ota_detail_current_version_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/mine_color_999999"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+        <com.aliyun.iot.ilop.demo.page.ota.view.MineOTAButton
+            android:id="@+id/mine_setting_ota_detail_button_mineotabutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="17dp" />
+
+        <TextView
+            android:id="@+id/mine_setting_ota_detail_refresh_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/ilop_mine_ota_button_bg"
+            android:gravity="center"
+            android:textColor="@color/mine_color_FFFFFF"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

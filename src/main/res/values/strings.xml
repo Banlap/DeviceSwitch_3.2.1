@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="action_confirm">OK</string>
+    <string name="action_switch_env">Context switch</string>
+    <string name="locating">Locating…</string>
+    <string name="component_cancel">Cancel</string>
+    <string name="component_unopened_location_service">Location services disabled</string>
+    <string name="component_unopened_location_service_des">To quickly locate, allow application to use the location services.</string>
+    <string name="component_set_up">Go to Settings</string>
+    <string name="location_failed">Failed to locate.</string>
+    <string name="location_failed_again">Click to retry.</string>
+    <string name="activity_title_choose_country">Select Country/Region</string>
+    <string name="login_location_fail">Failed to locate. Click to retry</string>
+    <string name="login_no_select_country_title">No country/area code is selected</string>
+    <string name="login_no_select_country_text">Select a country/area code before login or sign-up.</string>
+    <string name="region_restart_confirm">The app is restarting after switching.</string>
+    <string name="mine_language">Languages</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_switch_language">Switch the language to "%s"?</string>
+    <string name="action_log_in_again">log in again as the user prior to starting the application to make the change take effect</string>
+
+    <string name="mine_language_english">English</string>
+    <string name="mine_language_simplified_chinese">简体中文</string>
+    <string name="setting_follow_system_langure">Use System Language</string>
+    <string name="mine_language_simplified_french">Français</string>
+    <string name="mine_language_simplified_German">Deutsch</string>
+    <string name="mine_language_japanese">日本語</string>
+    <string name="mine_language_korean">한국어</string>
+    <string name="mine_language_spain">Español</string>
+    <string name="mine_language_russian">Русский</string>
+    <string name="action_authcode_login">Authcode login</string>
+    <string name="title_activity_share" translatable="false">ShareActivity</string>
+
+
+    <string name="thirdparty_you_can_use_that" translatable="false">You can use it like this:</string>
+    <string name="thirdparty_you_can_say_that" translatable="false">You can say:</string>
+    <string name="thirdparty_instruction_TmallGenie" translatable="false">“天猫精灵，打开灯”\n“天猫精灵，把灯调亮一点”\n“天猫精灵，把灯调成蓝色”\n“天猫精灵，打开窗帘”\n“天猫精灵，风扇调到3档”\n“天猫精灵，取暖器温度调到三十度”</string>
+    <string name="mine_tp_aa_instruction" translatable="false">“Alexa, turn on the light.”\n“Alexa, turn off the light.” \n“Alexa, dim the light.”</string>
+    <string name="mine_tp_ga_instruction" translatable="false">”OK, Google, turn on/off my lights.”\n”OK, Google, dim my lights to fifty percent.”\n”OK, Google, turn my lights [color].”\n”OK, Google, lock the front door.”</string>
+    <string name="mine_tp_ifttt_instruction" translatable="false">Set light to cool white when rain comes\nDim the light in the late of night\nPower on your outlet at sunset</string>
+    <string name="minie_tp_aa_html" translatable="false">https://g.aliplus.com/ilop/static/App/en/Amazon.html</string>
+    <string name="minie_tp_ga_html" translatable="false">https://g.aliplus.com/ilop/static/App/en/Google.html</string>
+    <string name="minie_tp_ifttt_html" translatable="false">https://g.aliplus.com/ilop/static/App/en/IFTTT.html</string>
+    <string name="thirdparty_platform_instruction" translatable="false">Commands</string>
+    <string name="thirdparty_binding_steps" translatable="false">Binding Steps</string>
+    <string name="thirdparty_binded_account" translatable="false">Bind Account</string>
+    <string name="thirdparty_binded_account_success" translatable="false">The account has been bound.</string>
+    <string name="thirdparty_binded_account_failed" translatable="false">An error occurred while binding the account.</string>
+    <string name="thirdparty_unbinded_account_failed" translatable="false">An error occurred while unbinding the account.</string>
+    <string name="thirdparty_unbinded_account_success" translatable="false">The account has been unbound.</string>
+    <string name="thirdparty_unbinded_account" translatable="false">Unbind Account</string>
+    <string name="appExtension_device_add_no" translatable="false">Devices</string>
+    <string name="quit">退出</string>
+    <string name="settings">设置</string>
+
+</resources>

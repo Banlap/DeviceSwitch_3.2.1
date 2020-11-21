@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_lamps_hsvdialog_bg"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HSV调色"
+        android:textColor="#FF333333"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/hsv_palettes_cancle_iv"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignParentRight="true"
+        android:background="#000" />
+
+    <ListView
+        android:divider="#00000000"
+        android:id="@+id/hsv_palettes_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp" />
+</RelativeLayout>

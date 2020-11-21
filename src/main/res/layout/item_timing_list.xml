@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+     android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_below="@+id/head_image"
+        android:background="@color/bg_gray_color"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.3"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/name_text"
+                android:text="19:00"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+     </LinearLayout>
+        <LinearLayout
+          android:gravity="center"
+          android:layout_weight="3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <Switch
+              android:id="@+id/sw_timer_switch"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_week"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="周一 周二 周三"
+        android:textSize="@dimen/text_size_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
